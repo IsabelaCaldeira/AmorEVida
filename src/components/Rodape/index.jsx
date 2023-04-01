@@ -5,7 +5,7 @@ export default function Rodape() {
     return (
         <footer className={styles.rodape}>
             <div className={styles.rodape__links}>
-            <CabecalhoLinks />
+                <CabecalhoLinks />
             </div>
         </footer>
     )

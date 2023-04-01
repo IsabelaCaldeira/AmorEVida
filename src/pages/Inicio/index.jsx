@@ -16,6 +16,5 @@ export default function Inicio() {
                 <Botao>COMO AJUDAR</Botao>
             </div>
         </div>
-
     )
 }
