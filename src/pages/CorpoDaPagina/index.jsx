@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
-import Cabecalho from "../../components/Cabecalho";
 import Rodape from "components/Rodape";
+import Header from "../../components/Header";
 
 export default function CorpoDaPagina() {
     return (
         <>
-            <Cabecalho />
+            <Header />
             <Outlet />
             <Rodape />
         </>
