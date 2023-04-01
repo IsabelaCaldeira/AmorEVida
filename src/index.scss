@@ -1,0 +1,31 @@
+:root {
+  --fonte: 'Lato', sans-serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --vermelho-escuro: #800F0D;
+  --vermelho-medio:#F29F9D;
+  --vermelho-claro: #CC1814;
+  --verde-escuro: #59800D;
+  --verde-medio: ##CBE595;
+  --verde-claro: #8FCC14;
+  --cinza-escuro: #4D4D4D;
+  --cinza-medio: #CCCCCC;
+  --conza-claro: #808080;
+  --cor-de-fundo: #FAFAFA;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte);
+  background-color: var(--cor-de-fundo);
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

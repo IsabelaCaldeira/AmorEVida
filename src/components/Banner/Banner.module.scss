@@ -1,0 +1,16 @@
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    &__texto {
+        
+        h1 {
+            margin-right: 1.5em;
+            font-size: 80px;
+            font-weight: 300;
+        }
+        
+    }
+}
