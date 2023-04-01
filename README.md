@@ -5,14 +5,12 @@ The figma of the site:
 [FigmaAmorEVida](https://www.figma.com/file/4pOjKNSP8N8AC2GMYm7iOo/Amor-e-Vida?node-id=0-1&t=d6XSLXFr2GyuvtEh-0). 
 <br>
 
-## To help us out you must have installed nodejs in your machine and local rep 
-
 ## :thinking: Do you want to help?
 **Fork this repository**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd Linksoftwares
+$ git clone your-fork-url
 # Create a branch with your feature or the correction of bugs
 $ git checkout -b my-branch
 # Commit the changes
