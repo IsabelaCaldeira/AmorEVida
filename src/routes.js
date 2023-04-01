@@ -1,17 +1,17 @@
 import ScrollToTop from "components/ScrollToTop";
-import Inicio from "pages/Inicio";
-import PaginaDeErro from "pages/PaginaDeErro";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import CorpoDaPagina from "./pages/CorpoDaPagina";
+import PageBudy from "./pages/PageBody";
+import ErrorPage from "pages/ErrorPage";
+import Home from "pages/Home";
 
 function AppRoutes() {
     return (
         <BrowserRouter>
         <ScrollToTop />
             <Routes>
-                <Route path="/" element={<CorpoDaPagina />}>
-                    <Route index element={<Inicio />} />
-                    <Route path="*" element={<PaginaDeErro />} />
+                <Route path="/" element={<PageBudy />}>
+                    <Route index element={<Home />} />
+                    <Route path="*" element={<ErrorPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

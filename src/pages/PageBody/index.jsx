@@ -1,13 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Rodape from "components/Rodape";
 import Header from "../../components/Header";
+import Footer from "components/Footer";
 
-export default function CorpoDaPagina() {
+export default function PageBudy() {
     return (
         <>
             <Header />
             <Outlet />
-            <Rodape />
+            <Footer />
         </>
     )
 }

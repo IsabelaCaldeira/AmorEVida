@@ -1,19 +1,19 @@
-import Botao from "components/Botao";
 import Banner from "../../components/Banner";
 import banner from '../../public/assets/img/banner.png';
-import styles from './Inicio.module.scss'
+import styles from './Home.module.scss';
+import Button from "components/Button";
 
-export default function Inicio() {
+export default function Home() {
     return (
 
-        <div className={styles.inicio}>
+        <div className={styles.home}>
             <Banner
                 img={banner}
                 titulo="AMOR E VIDA"
             />
-            <div className={styles.inicio__botao}>
+            <div className={styles.home__button}>
                 <p>Comover e Mover</p>
-                <Botao>COMO AJUDAR</Botao>
+                <Button>COMO AJUDAR</Button>
             </div>
         </div>
     )

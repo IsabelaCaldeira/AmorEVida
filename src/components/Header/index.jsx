@@ -1,8 +1,8 @@
 import styles from './Header.module.scss';
 import logo from '../../public/assets/img/logo.png';
 import { Link } from 'react-router-dom';
-import CabecalhoLinks from '../CabecalhoLinks/Index';
-import Botao from '../Botao';
+import Button from '../Button';
+import HeaderLinks from '../HeaderLinks/Index';
 
 export default function Header() {
     return (
@@ -13,10 +13,10 @@ export default function Header() {
                 </Link>
             </div>
             <div className={styles.header__links}>
-                <CabecalhoLinks />
+                <HeaderLinks />
             </div>
-            <div className={styles.cabecalho__botao}>
-                <Botao>Doar</Botao>
+            <div className={styles.header__botao}>
+                <Button>Doar</Button>
             </div>
         </header>
     )

@@ -1,9 +1,9 @@
 import styles from './PaginaDeErro.module.scss';
 import erro404 from './404.png';
 import { useNavigate } from 'react-router-dom';
-import Botao from 'components/Botao';
+import Button from 'components/Button';
 
-function PaginaDeErro() {
+export default function ErrorPage() {
 
     const navegar = useNavigate ();
 
@@ -13,11 +13,10 @@ function PaginaDeErro() {
             <div>
                 <h1>Ops... Pagina não encontrada... Clique em voltar!</h1>
                 <div onClick={() => navegar(-1)}>
-                    <Botao>VOLTAR</Botao>
+                    <Button>VOLTAR</Button>
                 </div>
             </div>
         </section>
     )
 }
 
-export default PaginaDeErro;
