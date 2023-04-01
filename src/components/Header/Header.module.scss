@@ -5,6 +5,14 @@
     padding: 1em 1em;
     background-color: var(--branco);
 
+    &__logo {
+
+        img {
+            width: 65px;
+            height: 61px;
+        }
+    }
+
     &__links {
         a {
             text-decoration: none;

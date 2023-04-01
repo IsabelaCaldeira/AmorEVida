@@ -1,0 +1,24 @@
+.carrossel {
+    display: flex;
+
+
+    &__botoes {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    &__images {
+        align-items: center;
+        justify-content: center;
+        margin: 0 1em;
+        img {
+            margin: 0 1em;
+        }
+    }
+}
