@@ -7,7 +7,23 @@ The figma of the site:
 
 ## To help us out you must have installed nodejs in your machine and local rep 
 
-## :zap: To execute the project run:
+## :thinking: Do you want to help?
+**Fork this repository**
+
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd Linksoftwares
+# Create a branch with your feature or the correction of bugs
+$ git checkout -b my-branch
+# Commit the changes
+$ git commit -m 'feature/bugfix: my changes'
+# Push to your branch
+$ git push origin my-branch
+```
+
+After your pull request is merged, you can delete your branch.
+
+## :zap: To execute the frontend run:
 
 ```bash
 # NPM 
@@ -19,6 +35,6 @@ $ npm install react-router-dom@6
 # SASS
 $ npm install --save-dev sass
 
-# Start Helping us
+# Let the magic begin
 $ npm start
 ```
