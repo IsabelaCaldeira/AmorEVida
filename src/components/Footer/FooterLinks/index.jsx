@@ -60,7 +60,7 @@ export default function FooterLinks() {
                     Como ajudar
                 </Link>
                 <div className={styles.subSection}>
-                    <Link to="./historia">
+                    <Link to="./ajudar">
                         Doações
                     </Link>
                 </div>
