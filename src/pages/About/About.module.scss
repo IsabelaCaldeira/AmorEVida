@@ -1,0 +1,52 @@
+.about {
+
+    &__inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2em 0;
+
+        img {
+            width: 846px;
+            height: 627px;
+
+        }
+
+        p {
+            width: 846px;
+            margin: 3em 0;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em 0;
+
+    &__card {
+        h2 {
+            font-size: 60px;
+            font-weight: 300;
+           text-align: center;
+        }
+    }
+
+    &__quadrado {
+        background-color: var(--branco);
+        width: 405px;
+        height: 298px;
+        display: flex;
+        align-items: center;
+        
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0 3em;
+        }
+    }
+}

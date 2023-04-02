@@ -22,4 +22,35 @@
             border-radius: 8px;
         }
     }
+
+    &__about {
+        display: flex;
+        margin: 2em 12em;
+
+        h2 {
+            font-size: 62px;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 4em;
+            line-height: 24px;
+        }
+        img {
+            width: 515px;
+            height: 382px;
+        }
+
+        button {
+            width: 131px;
+            height: 40px;
+            color: var(--vermelho-claro);
+            background-color: var(--branco);
+            border: 1px solid var(--vermelho-claro);
+            border-radius: 8px;
+            margin-top: 2em;
+        }
+    }
 }

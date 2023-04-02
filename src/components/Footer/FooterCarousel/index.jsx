@@ -42,6 +42,7 @@ export default function FooterCarousel() {
     <section className={styles.carrossel}>
       <div className={styles.carrossel__botoes}>
         <button onClick={handleLftClick}><img src={esquerda} alt="seta para a esquerda" /></button>
+      <button onClick={handleRightClick}><img src={direita} alt="seta para a direita" /></button>
       </div>
       <div className={styles.carrossel__images} ref={carrossel}>
         {patrocinadores.map((patrocinador, index) => (
@@ -49,7 +50,7 @@ export default function FooterCarousel() {
         ))}
       </div>
       <div className={styles.carrossel__botoes}>
-        <button onClick={handleRightClick}><img src={direita} alt="seta para a direita" /></button>
+        
       </div>
     </section>
   );

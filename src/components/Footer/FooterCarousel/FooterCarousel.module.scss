@@ -1,23 +1,25 @@
 .carrossel {
+    padding: 1em 5em;
     display: flex;
-
-
-    &__botoes {
-        display: flex;
-        justify-content: flex-end;
-
-        button {
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-        }
+    flex-direction: row;
+    justify-content: center;
+    
+    button {
+        display: none;
     }
 
     &__images {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
 
-        margin: 0 1em;
         img {
             margin: 0 1em;
         }
     }
+
+    &__images::-webkit-scrollbar {
+        display: none;
+    }
 }
+
