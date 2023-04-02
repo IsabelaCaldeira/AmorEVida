@@ -11,10 +11,13 @@ The figma of the site:
 ```bash
 # Clone your fork
 $ git clone your-fork-url
+
 # Create a branch with your feature or the correction of bugs
 $ git checkout -b my-branch
+
 # Commit the changes
 $ git commit -m 'feature/bugfix: my changes'
+
 # Push to your branch
 $ git push origin my-branch
 ```
