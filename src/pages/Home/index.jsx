@@ -1,3 +1,4 @@
+import Projects from "components/Projects";
 import Banner from "../../components/Banner";
 import banner from '../../public/assets/img/banner.png';
 import styles from './Home.module.scss';
@@ -14,6 +15,9 @@ export default function Home() {
             <div className={styles.home__button}>
                 <p>Comover e Mover</p>
                 <Button>COMO AJUDAR</Button>
+            </div>
+            <div className={styles.home__cards}>
+                <Projects />
             </div>
         </div>
     )

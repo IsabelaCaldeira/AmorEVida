@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "tipo": "",
+      "titulo": "Quem somos",
+      "icone": "",
+      "imagem": "/assets/posts/1/quem-somos.png",
+      "resumo": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos...",
+      "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+    },
+    {
+        "id": 2,
+        "tipo": "Projeto",
+        "titulo": "A casa",
+        "icone": "/assets/posts/2/a-casa.png",
+        "imagem": "/assets/posts/2/quem-somos.png",
+        "resumo": "A casa de acolhimento é um lar temporário para homens em situação de vulnerabilidade social.",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      },
+      {
+        "id": 3,
+        "tipo": "Projeto",
+        "titulo": "Reciclagem",
+        "icone": "/assets/posts/3/reciclagem.png",
+        "imagem": "/assets/posts/quem-somos.png",
+        "resumo": "O projeto reciclagem é vinculado a casa de acolhimento de forma a gerar renda e autonomia aos homens acolhidos na casa.",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      },
+      {
+        "id": 4,
+        "tipo": "Projeto",
+        "titulo": "Cursos e palestras",
+        "icone": "/assets/posts/4/mao.png",
+        "imagem": "/assets/posts/quem-somos.png",
+        "resumo": "Os cursos de capacitação sao destinados aos moradores da casa e as suas familias. Acreditamos que a educação e formação mudam vidas. ",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      },
+      {
+        "id": 5,
+        "tipo": "Projeto",
+        "titulo": "Doações",
+        "icone": "/assets/posts/5/urso.png",
+        "imagem": "/assets/posts/quem-somos.png",
+        "resumo": "O projeto é movido por pessoas e por suas doações, seja você também um herói e ajude a transformar vidas. ",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      },
+      {
+        "id": 6,
+        "tipo": "Camapanha",
+        "titulo": "Filho de catador pode ser doutor!",
+        "icone": "/assets/posts/6/educar.png",
+        "imagem": "/assets/posts/quem-somos.png",
+        "resumo": "Esse campanha incentiva o estudo e o potencial transformador individual. ",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      },
+      {
+        "id": 7,
+        "tipo": "Campanha",
+        "titulo": "Aqueça uma família",
+        "icone": "/assets/posts/7/blusa.png",
+        "imagem": "/assets/posts/quem-somos.png",
+        "resumo": "Traga a sua doação! Estamos recebendo roupas e calçados em bom estado. ",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      },
+      {
+        "id": 8,
+        "tipo": "Campanha",
+        "titulo": "Alimente uma vida",
+        "icone": "/assets/posts/8/alimente.png",
+        "imagem": "/assets/posts/quem-somos.png",
+        "resumo": "Campanha Alimente uma vida onde a sua solidariedade é um prato cheio. ",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      },
+      {
+        "id": 9,
+        "tipo": "Campanha",
+        "titulo": "Quem cata merece casa",
+        "icone": "/assets/posts/9/casa.png",
+        "imagem": "/assets/posts/quem-somos.png",
+        "resumo": "Objetivo de arrecadar materiais para construção para catadores em situação crítica. ",
+        "texto": "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!"
+      }
+  ]
+  
