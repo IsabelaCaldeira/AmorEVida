@@ -1,5 +1,5 @@
 ## 🚀 Challenge Proposal
-Welcome to the "Amor e Vida" website, a recycling and income generation  social project!
+Welcome to the "Amor e Vida" website, a recycling and income generation social project!
 
 The figma of the site:
 [FigmaAmorEVida](https://www.figma.com/file/4pOjKNSP8N8AC2GMYm7iOo/Amor-e-Vida?node-id=0-1&t=d6XSLXFr2GyuvtEh-0). 
