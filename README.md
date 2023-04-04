@@ -36,6 +36,9 @@ $ npm install react-router-dom@6
 # SASS
 $ npm install --save-dev sass
 
+# Bootstrap
+$ npm install bootstrap
+
 # Let the magic begin
 $ npm start
 ```
