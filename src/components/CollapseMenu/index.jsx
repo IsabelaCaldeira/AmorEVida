@@ -1,13 +1,21 @@
-
+// import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import { Accordion } from 'react-bootstrap';
 // import styles from './CollapseMenu.module.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import Card from 'react-bootstrap/Card';
+// import { useContext } from 'react';
+import styles from './CollapseMenu.module.scss';
 
 
-export default function CollapseMenu() {
+
+// function ContextAwareToggle() {
+  //   }
+  
+export default function CollapseMenu({ children, eventKey, callback }) {
+
   return (
     <div id="accordion">
-      <Accordion defaultActiveKey="0">
+      <Accordion className={styles.CustomAccordion} defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Acolhimento</Accordion.Header>
           <Accordion.Body>
