@@ -12,7 +12,7 @@ import Contact from "pages/Contact";
 function AppRoutes() {
     return (
         <BrowserRouter>
-        <ScrollToTop />
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<PageBudy />}>
                     <Route index element={<Home />} />
