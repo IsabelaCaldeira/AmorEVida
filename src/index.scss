@@ -17,10 +17,11 @@
 
 
 body {
+  $cor-de-fundo: #FAFAFA;
   margin: 0;
   padding: 0;
-  font-family: var(--fonte);
-  
+  font-family: var(--fonte) !important;
+  background-color: $cor-de-fundo !important;
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
