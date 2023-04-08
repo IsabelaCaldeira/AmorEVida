@@ -3,7 +3,7 @@ import erro404 from './404.png';
 import { useNavigate } from 'react-router-dom';
 import Button from 'components/Button';
 
-export default function ErrorPage() {
+export default function NotFound() {
 
     const navegar = useNavigate ();
 
