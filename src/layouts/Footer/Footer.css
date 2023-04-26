@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  /* padding: 1rem; */
+
+  background-color: var(--branco);
+}
+
+/* .footer *{
+  border: 1px solid red; 
+} */
+
+.footer .contato {
+  max-width: 100%;
+}
+
+.footer .contato ul li {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* .footer .contato .logo img {
+  max-width: 100%;
+} */
+
+.footer .social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.footer .social div a {
+  padding-inline: 0.5rem;
+}

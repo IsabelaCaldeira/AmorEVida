@@ -1,11 +1,11 @@
-import styles from './Button.module.scss';
+import { Link } from "react-router-dom";
+import "./style.css";
 
-const Button = (props) => {
-    return (
-        <button className={styles.button}>
-            {props.children}
-        </button>
-    )
-}
+export const Button = ({children, link=true, url="#", colorful=false, padding="8px 28px"}) => {
+  const btnStyle = colorful ? "btn-colored " : "btn-outlined ";
 
-export default Button;
+  return (
+    <button className={btnStyle} style={{padding}}>
+      {link ? <Link to={url}>{children}</Link> : children}
+    </button>);
+};

@@ -1,0 +1,62 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  list-style: none;
+  border: 0;
+}
+
+:root {
+  --fonte: "Lato", sans-serif;
+  --cor-do-texto: #333333;
+  --branco: #ffffff;
+  /* --branco: #888; */
+  --preto: #000000;
+  --vermelho-escuro: #800f0d;
+  --vermelho-medio: #f29f9d;
+  --vermelho-claro: #cc1814;
+  --verde-escuro: #59800d;
+  --verde-medio: #cbe595;
+  --verde-claro: #8fcc14;
+  --cinza-escuro: #4d4d4d;
+  --cinza-medio: #cccccc;
+  --cinza-claro: #808080;
+  --cor-de-fundo: #fafafa;
+  /* --cor-de-fundo: #555; */
+
+  --btn-bg-hover: #ffd0cf;
+  --btn-color-hover: #870000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 120px;
+  font-family: var(--fonte) !important;
+  background-color: var(--cor-de-fundo) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.btn {
+  font-weight: 700;
+  transition: 0.5s ease;
+  font-size: 16px; 
+  /* cursor: pointer; */
+}

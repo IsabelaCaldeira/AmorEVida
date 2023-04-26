@@ -1,0 +1,12 @@
+root = true
+
+[*]
+indent_style = space
+quote_type = auto # single or double 
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+semicolons = true 
+linebreak_style = "unix"
+trim_trailing_whitespace = true
+insert_final_newline = true

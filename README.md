@@ -1,11 +1,13 @@
 ## 🚀 Challenge Proposal
+
 Welcome to the "Amor e Vida" website, a recycling and income generation social project!
 
 The figma of the site:
-[FigmaAmorEVida](https://www.figma.com/file/4pOjKNSP8N8AC2GMYm7iOo/Amor-e-Vida?node-id=0-1&t=d6XSLXFr2GyuvtEh-0). 
+[FigmaAmorEVida](https://www.figma.com/file/4pOjKNSP8N8AC2GMYm7iOo/Amor-e-Vida?node-id=0-1&t=d6XSLXFr2GyuvtEh-0).
 <br>
 
 ## :thinking: Do you want to help?
+
 **Fork this repository**
 
 ```bash
@@ -25,20 +27,29 @@ $ git push origin my-branch
 After your pull request is merged, you can delete your branch.
 
 ## :zap: To execute the frontend run:
-
+**Run so you can download the denpendencies**
 ```bash
-# NPM 
-$ npm install
+# NPM
+$ npm i
 
-# React Router Dom
-$ npm install react-router-dom@6
-
-# SASS
-$ npm install --save-dev sass
-
-# Bootstrap
-$ npm install bootstrap
-
-# Let the magic begin
-$ npm start
+# start 
+$ npm run dev
 ```
+
+
+## :hammer: See the errors:
+**Pretty easy to use, prevent errors**
+```bash
+
+# See if you have forgoten something
+$ npx eslint src/**/*.jsx 
+
+# See if css is have a error
+$ npx stylelint src/**/*.css
+
+```
+## ⚠️ Got some issue with eslint or stylelint:
+### here the docs
+
+https://stylelint.io/
+https://eslint.org/

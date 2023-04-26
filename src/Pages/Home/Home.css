@@ -1,0 +1,25 @@
+.home .button {
+  text-align: center;
+  position: relative;
+  /* top: 530px; */
+  /* left: 1000px; */
+}
+
+.quem-somos {
+  display: flex;
+  /* background-color: #f3f3f3; */
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .quem-somos div {
+    max-height: fit-content;
+    flex-basis: 700px;
+  }
+}
+
+.quem-somos img {
+  max-width: 100%;
+  padding-block: 20px;
+  /* height: 382px; */
+}

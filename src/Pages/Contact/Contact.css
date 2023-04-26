@@ -1,0 +1,23 @@
+.contact {
+  margin: 2em 4em;
+}
+
+.contact h1 {
+  font-size: 62px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.form h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.form p {
+  font-size: 16px;
+  font-weight: 400;
+}
