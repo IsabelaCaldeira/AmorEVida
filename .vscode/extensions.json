@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "amodio.toggle-excluded-files",
+    "bradlc.vscode-tailwindcss",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "stylelint.vscode-stylelint"
+  ]
+}

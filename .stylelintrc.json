@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "declaration-empty-line-before": ["always", {"ignore": ["first-nested", "after-declaration"]}],
+    "declaration-block-single-line-max-declarations": [3, { "severity": "warning" }],
+    "alpha-value-notation": ["number", {"exceptProperties": ["opacity"]}],
+    "color-function-notation": "legacy",
+    "property-no-vendor-prefix": null,
+    "no-descending-specificity": null,
+    "selector-class-pattern": null
+  }
+}
