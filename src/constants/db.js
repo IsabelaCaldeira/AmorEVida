@@ -22,7 +22,7 @@ import caraguatatuba from "/assets/img/Depoimento/caraguatatuba.jpg";
 export const homepage = {
   id: 1,
   tipo: "",
-  titulo: "Sobre nós",
+  titulo: "Quem somos",
   icone: "",
   imagem: quemSomos,
   resumo:
