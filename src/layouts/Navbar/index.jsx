@@ -19,7 +19,7 @@ export default function Navbar() {
       <NavLinks show={mob} setClose={setMob} />
 
       <div className="flex items-center">
-        <Button colorful={true} padding={"4px 24px"}>Doar</Button>
+        <Button colorful={true} padding={"4px 24px"}>DOAR</Button>
 
         <div className={"mobile p-4 ml-6 " + active} onClick={() => setMob(prevState => !prevState)}>
           <i></i>
@@ -43,24 +43,21 @@ function NavLinks({ show, setClose }) {
       <Link to="./ajudar">Como ajudar</Link>
       <Link to="./contato">Contato</Link> */}
 
-      <ul className="@[739px]:flex" onClick={(_) => setClose(false)}>
+      <ul onClick={() => setClose(false)}>
         <li>
-          <Link to="./">Início</Link>
+          <Link to="./">QUEM SOMOS</Link>
         </li>
         <li>
-          <Link to="./sobre">Sobre</Link>
+          <Link to="./sobre">AÇÕES</Link>
         </li>
         <li>
-          <Link to="./projetos">Campanhas</Link>
+          <Link to="./transparencia">TRANSPARÊNCIA</Link>
         </li>
         <li>
-          <Link to="./transparencia">Transparência</Link>
+          <Link to="./ajudar">COMO AJUDAR</Link>
         </li>
         <li>
-          <Link to="./ajudar">Ajudar</Link>
-        </li>
-        <li>
-          <Link to="./contato">Contato</Link>
+          <Link to="./contato">CONTATO</Link>
         </li>
       </ul>
     </div>
