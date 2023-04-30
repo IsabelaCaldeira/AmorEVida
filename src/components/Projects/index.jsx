@@ -24,7 +24,7 @@ export default function Projects() {
 
       <section className="cards-title">
         <h2>Campanhas</h2>
-        <Cards itens={campains} />
+        <Cards itens={campains} btn={"DOAR"} />
       </section>
 
       <section className="cards-title">
@@ -35,7 +35,7 @@ export default function Projects() {
   );
 }
 
-function Cards({ itens }) {
+function Cards({ itens, btn }) {
   return (
     <div className="cardEstrutura lg:w-4/5 max-w-5xl mx-auto justify-evenly gap-x-4 max-xs:px-6">
       {itens.map((item, index) => (
@@ -44,6 +44,7 @@ function Cards({ itens }) {
           resumo={item.resumo}
           icone={item.icone}
           tipo={item.tipo}
+          btn={btn}
           id={item.id}
           key={item.id + index}
         />
@@ -52,12 +53,12 @@ function Cards({ itens }) {
   );
 }
 
-const Card = ({ titulo, resumo, icone, tipo, id }) => {
+const Card = ({ titulo, resumo, icone, tipo, btn="Saiba Mais!", id }) => {
   // Adiciona a classe com a cor desejada apenas nos 4 primeiros itens
   const h3Class = tipo == "Projeto" ? "textoVermelho" : "textoVerde";
   
   return (
-    <div className="card min-[1300]:max-w-lg max-w-md py-5">
+    <div className="card min-[1300]:max-w-lg max-w-md py-5 pr-7">
       <div className="icone pr-3 pl-5 py-6">
         <img src={icone} alt={titulo} />
       </div>
@@ -71,7 +72,7 @@ const Card = ({ titulo, resumo, icone, tipo, id }) => {
         </div>
 
         {/* <Link to={`/projeto/${id}`}> */}
-        <Button>Saiba Mais!</Button>
+        <Button>{btn}</Button>
       </div>
     </div>
   );
@@ -79,7 +80,7 @@ const Card = ({ titulo, resumo, icone, tipo, id }) => {
 
 const Testimonial = ({ itens }) => {
   return (
-    <div className="cardEstrutura lg:w-4/5 max-w-6xl mx-auto justify-evenly gap-x-4">
+    <div className="cardEstrutura lg:w-4/5 max-w-6xl mx-auto justify-evenly sm:px-10">
       {itens.map((item, index) => (
         <TestimonialCard
           titulo={item.titulo}
@@ -101,11 +102,14 @@ function TestimonialCard({ titulo, resumo, video, endereco }) {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     width: "700px",
-    height: "250px",
+    height: "200px",
   };
 
+  // create an object called ui that 
+
+
   return (
-    <div className="card testimonial sm:max-w-lg max-tn:w-64 tn:max-w-xs flex-col">
+    <div className="card testimonial sm:max-w-md max-tn:w-64 tn:max-w-xs flex-col">
       {/* <img className="rounded-t-2xl" src={video} alt={resumo} /> */}
       <div className="max-w-full">
         <div className="img max-w-full rounded-t-2xl" style={bg}></div>
@@ -122,14 +126,13 @@ function TestimonialCard({ titulo, resumo, video, endereco }) {
         */}
 
       <div className="descricao flex flex-col justify-center p-6">
-        <span className="text-lg text-gray-800">{endereco}</span>
+        {/* <span className="text-lg text-gray-800">{endereco}</span> */}
         <h4 className="text-2xl mb-5">{titulo}</h4>
 
         <div className="resumo mb-5">
           <p>{resumo}</p>
         </div>
 
-        <Button>Saiba Mais!</Button>
       </div>
     </div>
   );
