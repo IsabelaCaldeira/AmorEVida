@@ -1,6 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import url("tailwindcss/base");
+@import url("tailwindcss/components");
+@import url("tailwindcss/utilities");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* RESET */
@@ -15,10 +15,11 @@
 
 :root {
   --fonte: "Lato", sans-serif;
-  --cor-do-texto: #333333;
-  --branco: #ffffff;
+  --cor-do-texto: #333;
+  --branco: #fff;
+
   /* --branco: #888; */
-  --preto: #000000;
+  --preto: #000;
   --vermelho-escuro: #800f0d;
   --vermelho-medio: #f29f9d;
   --vermelho-claro: #cc1814;
@@ -26,9 +27,10 @@
   --verde-medio: #cbe595;
   --verde-claro: #8fcc14;
   --cinza-escuro: #4d4d4d;
-  --cinza-medio: #cccccc;
+  --cinza-medio: #ccc;
   --cinza-claro: #808080;
   --cor-de-fundo: #fafafa;
+
   /* --cor-de-fundo: #555; */
 
   --btn-bg-hover: #ffd0cf;
@@ -50,13 +52,13 @@ img {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .btn {
   font-weight: 700;
   transition: 0.5s ease;
-  font-size: 16px; 
+  font-size: 16px;
+
   /* cursor: pointer; */
 }
