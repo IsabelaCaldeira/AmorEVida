@@ -13,10 +13,8 @@ import alimente from "/assets/posts/alimente.png";
 import casa from "/assets/posts/casa.png";
 
 // depoimento
-import carapicuiba from "/assets/img/Depoimento/carapicuiba.jpeg";
-import araguacu from "/assets/img/Depoimento/araguacu.webp";
-import jandira from "/assets/img/Depoimento/jandira-sp-.jpg";
-import caraguatatuba from "/assets/img/Depoimento/caraguatatuba.jpg";
+import agasalho from "/assets/Video/AgasalhoAmoreVida.mp4";
+import acolhido from "/assets/Video/AcolhidoAmoreVida.mp4";
 // import "osasco"
 
 export const homepage = {
@@ -121,33 +119,17 @@ export const testimonials = [
   {
     id: 10,
     titulo: "Aluisio da silva",
-    endereco: "Carapicuiba",
-    video: carapicuiba,
+    campanha: "Camapanha do Agasalho",
+    video: agasalho,
     resumo: "Depoimentos de acolhidos pelo projeto incentivando a campanha do agasalho",
     texto: "",
   },
   {
     id: 11,
     titulo: "Marcus Kleiton Pereida",
-    endereco: "Araguaçu",
-    video: araguacu,
+    campanha: "Depoimento de Acolhido",
+    video: acolhido,
     resumo: "Depoimento de acolhido exaltando a importância do projeto para a comunidade",
-    texto: "",
-  },
-  {
-    id: 12,
-    titulo: "gizele geleira",
-    endereco: "Jandira",
-    video: jandira,
-    resumo: "Depoimento de Gizele exalando felicidade com o projeto para a comunidade",
-    texto: "",
-  },
-  {
-    id: 13,
-    titulo: "Instituto Batata",
-    endereco: "Caraguatatuba",
-    video: caraguatatuba,
-    resumo: "Jameson demonstrando a sua engenhoca que limpa agua suja como se fosse magica",
     texto: "",
   },
 ];
