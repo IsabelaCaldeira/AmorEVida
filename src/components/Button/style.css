@@ -4,6 +4,7 @@
   border-radius: 8px;
   border: solid 1px #cc1814;
   transition: 0.3s ease-in-out;
+  height: fit-content;
 }
 
 .btn-outlined {
