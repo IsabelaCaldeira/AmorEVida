@@ -36,32 +36,27 @@ function NavLinks({ show, setClose }) {
 
   return (
     <div className={"links lg:text-lg " + active}>
-      {/* <Link to="./">Início</Link>
-      <Link to="./sobre">Quem Somos</Link>
-      <Link to="./projetos">Projetos e Campanhas</Link>
-      <Link to="./transparencia">Transparência</Link>
-      <Link to="./ajudar">Como ajudar</Link>
-      <Link to="./contato">Contato</Link> */}
-
       <ul onClick={() => setClose(false)}>
         <li>
-          <Link to="./">QUEM SOMOS</Link>
+          <Link to="/">INICIO</Link>
         </li>
         <li>
-          <Link to="./sobre">AÇÕES</Link>
+          <Link to="/sobre">QUEM SOMOS</Link>
         </li>
         <li>
-          <Link to="./transparencia">TRANSPARÊNCIA</Link>
+          <Link to="/projetos">AÇÕES</Link>
         </li>
         <li>
-          <Link to="./ajudar">COMO AJUDAR</Link>
+          <Link to="/transparencia">TRANSPARÊNCIA</Link>
         </li>
         <li>
-          <Link to="./contato">CONTATO</Link>
+          <Link to="/ajudar">COMO AJUDAR</Link>
+        </li>
+        <li>
+          <Link to="/contato">CONTATO</Link>
         </li>
       </ul>
     </div>
   );
 }
 
-// function mob() {}
