@@ -1,32 +1,19 @@
-import { useState } from "react";
-import { posts } from "../../constants/db.js";
+import { about } from "../../constants/db.js";
 import Banner from "../../layouts/Banner";
 import banner from "/assets/img/banner-about.png";
 import "./About.css";
 
 export default function About() {
-  const [item] = useState(posts[0]);
 
   return (
     <article className="about @container">
       <Banner img={banner} titulo="QUEM SOMOS" />
 
-      {/* <div className="img-nos">
-        <img src={item.imagem} alt={item.titulo} />
-        <p>{item.texto}</p>
-      </div> */}
-
-      <div
-        className="img-nos w-3/4 rounded-3xl mb-32 p-10 mx-auto text-white h-auto @6xl:max-h-[50vh] "
-        style={{ backgroundImage: "url(" + item.imagem + ")" }}
-        alt={item.titulo}
-      >
-        <h2 className="text-6xl">Sobre nós</h2>
-        <p className="my-12 text-xl">{item.texto}</p>
+      <div className="img-nos max-w-4xl mx-auto">
+        <img src={about.imagem} alt={about.titulo} />
+        <p className="my-8 mt-12">{about.texto}</p>
       </div>
 
-      <h2 className="text-4xl">Titulo Explicativo ou Introdutorio!</h2>
-      <h3 className="text-2xl mt-3">Lembrete colocar texto dentro do card.</h3>
       <div className="cards">
         <div className="card">
           <h2>Missão</h2>
