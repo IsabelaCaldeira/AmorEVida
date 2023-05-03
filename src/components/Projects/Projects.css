@@ -1,8 +1,8 @@
-.cards-title {
+.cards-section {
   text-align: left;
 }
 
-.cards-title h2 {
+.cards-section h2 {
   text-align: center;
   font-weight: 300;
   font-size: 4rem;
@@ -11,8 +11,28 @@
   margin-bottom: 1rem;
 }
 
+.recycle h2 {
+  text-align: center;
+  font-weight: normal;
+
+  /* font-weight: 300; */
+
+  font-size: 2.5rem;
+
+  /* font-size: 4rem; */
+
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+@container (max-width: 480px) {
+  .recycle h2 {font-size: 2rem;}
+  .recycle div img {display: none;}
+  .recycle div {text-align: center;}
+}
+
 @media only screen and (max-width: 360px) {
-  .cards-title h2 {
+  .cards-section h2 {
     font-size: 3rem;
   }
 }
@@ -32,40 +52,31 @@
   border-radius: 16px;
 
   background-color: var(--branco);
-  box-shadow: 0 0 7px -2px #0003;
-
-  /* border: 1px solid var(--branco); */
+  box-shadow: 0 0 5px 0 #0001;
 }
 
-@media only screen and (min-width: 600px) {
-  .cardEstrutura .card:not(.testimonial) {
-    max-height: 300px;
-    height: 100vh;
-  }
-}
 
-@media only screen and (min-width: 600px) {
-  .cardEstrutura .testimonial {
-    max-height: 400px;
-    height: 100vh;
+
+.cardEstrutura .card .descricao {height: 300px;}
+.cardEstrutura .testimonial .descricao {height: fit-content;}
+
+@media only screen and (max-width: 800px) {
+  .cardEstrutura .card,
+  .cardEstrutura .card .descricao {
+    height: fit-content;
   }
 }
 
 .icone {
   min-width: fit-content;
-
-  /* width: 45%; */
-
   max-width: 250px;
 }
 
-.icone img {
+.icone video {
   max-width: 100%;
-
-  /* height: 60%; */
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 418px) {
   .icone {
     min-width: 80px !important;
   }
@@ -79,15 +90,6 @@
   font-size: 16px;
   line-height: 24px;
 }
-
-/* .descricao button {
-  width: 131px;
-  height: 40px;
-  color: var(--vermelho-claro);
-  background-color: var(--branco);
-  border: 1px solid var(--vermelho-claro);
-  border-radius: 8px;
-} */
 
 .textoVermelho {
   color: var(--vermelho-claro);
