@@ -55,7 +55,6 @@ function Cards({ itens, btn }) {
           icone={item.icone}
           tipo={item.tipo}
           btn={btn}
-          id={item.id}
           key={item.id + index}
         />
       ))}
@@ -63,7 +62,7 @@ function Cards({ itens, btn }) {
   );
 }
 
-const Card = ({ titulo, resumo, icone, tipo, btn = "Saiba Mais!", id }) => {
+const Card = ({ titulo, resumo, icone, tipo, btn = "Saiba Mais!" }) => {
   // Adiciona a classe com a cor desejada apenas nos 4 primeiros itens
   const h3Class = tipo == "Projeto" ? "textoVermelho" : "textoVerde";
 
@@ -106,16 +105,6 @@ const Testimonial = ({ itens }) => {
 };
 
 function TestimonialCard({ titulo, resumo, video, campanha }) {
-  let bg = {
-    backgroundImage: `url(${video})`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    width: "700px",
-    height: "200px",
-  };
-
-  // create an object called ui that
 
   return (
     <div className="card testimonial sm:max-w-md max-w-sm mx-2 p-3 sm:p-6 flex-col">
