@@ -6,6 +6,7 @@ import banner from "/assets/img/banner.png";
 import { useState } from "react";
 import { homepage } from "../../constants/db.js";
 import "./Home.css";
+import { Sponsors } from "../../components/Sponsors";
 
 export default function Home() {
   const [item] = useState(homepage);
@@ -28,6 +29,8 @@ export default function Home() {
 
       <main className="flex flex-col px-5">
         <Projects />
+
+        <Sponsors/>
       </main>
 
       <div className="voluntario mx-auto max-w-fit text-center px-5">
