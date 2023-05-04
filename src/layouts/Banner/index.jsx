@@ -1,13 +1,12 @@
 import { useLocation } from "react-router-dom";
 import {Button} from "/src/components/Button";
-// import "./styles.css";
 
 const Banner = ({ img, titulo }) => {
   const { pathname } = useLocation();
 
   return (
     <header className="banner flex justify-around items-center">
-      <div className="max-xs:hidden ">
+      <div className="max-sm:hidden ">
         <img className="w-full h-auto" src={img} alt={titulo} />
       </div>
 

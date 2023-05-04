@@ -13,10 +13,8 @@ import alimente from "/assets/posts/alimente.png";
 import casa from "/assets/posts/casa.png";
 
 // depoimento
-import carapicuiba from "/assets/img/Depoimento/carapicuiba.jpeg";
-import araguacu from "/assets/img/Depoimento/araguacu.webp";
-import jandira from "/assets/img/Depoimento/jandira-sp-.jpg";
-import caraguatatuba from "/assets/img/Depoimento/caraguatatuba.jpg";
+import agasalho from "/assets/Video/AgasalhoAmoreVida.mp4";
+import acolhido from "/assets/Video/AcolhidoAmoreVida.mp4";
 // import "osasco"
 
 export const homepage = {
@@ -31,17 +29,18 @@ export const homepage = {
     "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas \n\n em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!",
 };
 
+export const about = {
+  id: 2,
+  tipo: "Projeto",
+  titulo: "A casa",
+  icone: Acasa,
+  imagem: quemSomos,
+  resumo: "A casa de acolhimento é um lar temporário para homens em situação de vulnerabilidade social.",
+  texto:
+    "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos, visando capacitá-los para retornar ao mercado de trabalho e se tornarem independentes. Aos poucos, com muito trabalho, o projeto foi ganhando visibilidade e recebendo mais parceiros. Em 24 de agosto de 2019 foi inaugurado o Galpão de Reciclagem Amor e Vida, com o objetivo de proporcionar dignidade e emancipação de pessoas em situação de rua, catadores de materiais recicláveis, carroceiros, e pessoas em vulnerabilidade social. Os recursos financeiros adquiridos através das doações de recicláveis permitem manter a casa de acolhimento e demais atividades. Após o advento da covid-19, o galpão se tornou um centro de capacitação para pessoas em vulnerabilidade, com oficinas e distribuição de alimentos, além de desenvolver o importante papel da reciclagem. Atualmente o projeto se mantem através de doações financeiras, de alimentos, parcerias, materiais recicláveis, e comercialização de produtos. Hoje podemos dizer que nosso projeto se tornou ambiental, social e econômico!",
+};
+
 export const posts = [
-  {
-    id: 2,
-    tipo: "Projeto",
-    titulo: "A casa",
-    icone: Acasa,
-    imagem: quemSomos,
-    resumo: "A casa de acolhimento é um lar temporário para homens em situação de vulnerabilidade social.",
-    texto:
-      "Nossa Casa de acolhimento, como o próprio nome diz, visa acolher as homens em situação de rua e cuidá-los, oferecendo moradia, alimentação, banho, cursos, atendimento médico e psicológico, e encaminhamento ao mercado de trabalho, visando sua ressocialização, para que o acolhido possa se tornar protagonista da sua vida novamente. Nossa casa possui capacidade para apenas 15 pessoas, por isso criamos um processo de triagem para os devidos encaminhamentos.",
-  },
   {
     id: 3,
     tipo: "Projeto",
@@ -121,33 +120,17 @@ export const testimonials = [
   {
     id: 10,
     titulo: "Aluisio da silva",
-    endereco: "Carapicuiba",
-    video: carapicuiba,
+    campanha: "Camapanha do Agasalho",
+    video: agasalho,
     resumo: "Depoimentos de acolhidos pelo projeto incentivando a campanha do agasalho",
     texto: "",
   },
   {
     id: 11,
     titulo: "Marcus Kleiton Pereida",
-    endereco: "Araguaçu",
-    video: araguacu,
+    campanha: "Depoimento de Acolhido",
+    video: acolhido,
     resumo: "Depoimento de acolhido exaltando a importância do projeto para a comunidade",
-    texto: "",
-  },
-  {
-    id: 12,
-    titulo: "gizele geleira",
-    endereco: "Jandira",
-    video: jandira,
-    resumo: "Depoimento de Gizele exalando felicidade com o projeto para a comunidade",
-    texto: "",
-  },
-  {
-    id: 13,
-    titulo: "Instituto Batata",
-    endereco: "Caraguatatuba",
-    video: caraguatatuba,
-    resumo: "Jameson demonstrando a sua engenhoca que limpa agua suja como se fosse magica",
     texto: "",
   },
 ];

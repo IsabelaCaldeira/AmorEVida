@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import { posts, testimonials } from "../../constants/db.js";
+import { Button } from "../Button";
 import "./Projects.css";
-import {Button} from "../Button";
 
 export default function Projects() {
   let projects = [];
@@ -10,24 +9,35 @@ export default function Projects() {
     posts[i].tipo == "Projeto" ? projects.push(posts[i]) : campains.push(posts[i]);
   }
 
-  // useState
-
-  // Spread
   const testimonialArr = [...testimonials];
 
   return (
     <>
-      <section className="cards-title">
+      <section className="cards-section">
         <h2>Projetos</h2>
         <Cards itens={projects} />
       </section>
 
-      <section className="cards-title">
-        <h2>Campanhas</h2>
-        <Cards itens={campains} />
+      <section className="recycle">
+        <h2>Doe materiais recicláveis</h2>
+
+        <div className="flex w-fit items-center mx-auto">
+          <img src="/public/assets/icons/HomemDeAmor.svg" className="w52" alt="" />
+
+          <div className="w-fit flex items-center flex-col ">
+            <h3 className="text-xl pb-5">Recebemos materiais recicláveis diariamente</h3>
+            {/* <Button>Saiba como</Button> */}
+            <Button colorful={true}>Saiba onde levar</Button>
+          </div>
+        </div>
       </section>
 
-      <section className="cards-title">
+      <section className="cards-section">
+        <h2>Campanhas</h2>
+        <Cards itens={campains} btn={"DOAR"} />
+      </section>
+
+      <section className="cards-section">
         <h2>Depoimentos</h2>
         <Testimonial itens={testimonialArr} />
       </section>
@@ -35,16 +45,16 @@ export default function Projects() {
   );
 }
 
-function Cards({ itens }) {
+function Cards({ itens, btn }) {
   return (
-    <div className="cardEstrutura lg:w-4/5 max-w-5xl mx-auto justify-evenly gap-x-4 max-xs:px-6">
+    <div className="cardEstrutura max-w-5xl mx-auto justify-evenly gap-x-4">
       {itens.map((item, index) => (
         <Card
           titulo={item.titulo}
           resumo={item.resumo}
           icone={item.icone}
           tipo={item.tipo}
-          id={item.id}
+          btn={btn}
           key={item.id + index}
         />
       ))}
@@ -52,12 +62,12 @@ function Cards({ itens }) {
   );
 }
 
-const Card = ({ titulo, resumo, icone, tipo, id }) => {
+const Card = ({ titulo, resumo, icone, tipo, btn = "Saiba Mais!" }) => {
   // Adiciona a classe com a cor desejada apenas nos 4 primeiros itens
   const h3Class = tipo == "Projeto" ? "textoVermelho" : "textoVerde";
-  
+
   return (
-    <div className="card min-[1300]:max-w-lg max-w-md py-5">
+    <div className="card min-[1300]:max-w-lg max-w-md py-5 pr-7">
       <div className="icone pr-3 pl-5 py-6">
         <img src={icone} alt={titulo} />
       </div>
@@ -71,7 +81,7 @@ const Card = ({ titulo, resumo, icone, tipo, id }) => {
         </div>
 
         {/* <Link to={`/projeto/${id}`}> */}
-        <Button>Saiba Mais!</Button>
+        <Button>{btn}</Button>
       </div>
     </div>
   );
@@ -79,13 +89,13 @@ const Card = ({ titulo, resumo, icone, tipo, id }) => {
 
 const Testimonial = ({ itens }) => {
   return (
-    <div className="cardEstrutura lg:w-4/5 max-w-6xl mx-auto justify-evenly gap-x-4">
+    <div className="cardEstrutura max-w-6xl mx-auto justify-evenly sm:px-10">
       {itens.map((item, index) => (
         <TestimonialCard
           titulo={item.titulo}
           resumo={item.resumo}
           video={item.video}
-          endereco={item.endereco}
+          campanha={item.campanha}
           id={item.id}
           key={item.id + index}
         />
@@ -94,42 +104,21 @@ const Testimonial = ({ itens }) => {
   );
 };
 
-function TestimonialCard({ titulo, resumo, video, endereco }) {
-  let bg = {
-    backgroundImage: `url(${video})`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    width: "700px",
-    height: "250px",
-  };
+function TestimonialCard({ titulo, resumo, video, campanha }) {
 
   return (
-    <div className="card testimonial sm:max-w-lg max-tn:w-64 tn:max-w-xs flex-col">
-      {/* <img className="rounded-t-2xl" src={video} alt={resumo} /> */}
-      <div className="max-w-full">
-        <div className="img max-w-full rounded-t-2xl" style={bg}></div>
-      </div>
+    <div className="card testimonial sm:max-w-md max-w-sm mx-2 p-3 sm:p-6 flex-col">
+      <video className="video rounded-2xl" src={video} controls>
+        Seu navegador não suporta video, atualize-o ou use um que suporte.
+      </video>
 
-      {/* 
-      <div className="video">
-        <video width="320" height="240" controls >
-          <source src="movie.mp4" type="video/mp4" />
-          <source src="movie.ogg" type="video/ogg" />
-          Seu navegador não suporta este formato de video.
-        </video>  
-      </div>
-        */}
-
-      <div className="descricao flex flex-col justify-center p-6">
-        <span className="text-lg text-gray-800">{endereco}</span>
+      <div className="descricao flex flex-col justify-center pt-5">
+        <span className="text-lg text-green-800">{campanha}</span>
         <h4 className="text-2xl mb-5">{titulo}</h4>
 
         <div className="resumo mb-5">
           <p>{resumo}</p>
         </div>
-
-        <Button>Saiba Mais!</Button>
       </div>
     </div>
   );

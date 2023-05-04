@@ -1,13 +1,17 @@
 .home .button {
   text-align: center;
   position: relative;
+
   /* top: 530px; */
+
   /* left: 1000px; */
 }
 
 .quem-somos {
   display: flex;
+
   /* background-color: #f3f3f3; */
+
   justify-content: center;
 }
 
@@ -21,5 +25,22 @@
 .quem-somos img {
   max-width: 100%;
   padding-block: 20px;
-  /* height: 382px; */
 }
+
+.home .voluntario img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+@media  screen and (min-width: 750px) {
+  .home .voluntario img {
+    max-height: 400px;
+  }
+}
+
+.home .voluntario {
+  width: fit-content;
+  max-height: 500px;
+}
+
+
