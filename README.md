@@ -27,7 +27,7 @@ $ git push origin my-branch
 After your pull request is merged, you can delete your branch.
 
 ## :zap: To execute the frontend run:
-**Run so you can download the dependencies**
+**Run so you can download the dependencies:**
 ```bash
 # NPM
 $ npm i
