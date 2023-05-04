@@ -9,7 +9,7 @@ import logo from "/assets/img/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="footer border-t-2 border-solid border-firebrick">
+    <footer className="footer">
       <div className="content relative max-w-full px-6">
         <div className="links max-w-full">
           <FooterLinks />
