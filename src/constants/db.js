@@ -18,10 +18,7 @@ import acolhido from "/assets/Video/AcolhidoAmoreVida.mp4";
 // import "osasco"
 
 export const homepage = {
-  id: 1,
-  tipo: "",
   titulo: "Quem somos",
-  icone: "",
   imagem: quemSomos,
   resumo:
     "O projeto Amor e Vida surgiu do desejo do fundador e presidente, Pastor Josmar Xavier, de acolher e cuidar de pessoas em situação de rua. O projeto se iniciou com uma casa de acolhimento, que sobrevivia com doações escassas, coleta de recicláveis, e muita fé. A casa modelo república oferecia alimentação, banho, moradia, atendimento psicológico e cursos aos acolhidos...",
@@ -30,10 +27,7 @@ export const homepage = {
 };
 
 export const about = {
-  id: 2,
-  tipo: "Projeto",
   titulo: "A casa",
-  icone: Acasa,
   imagem: quemSomos,
   resumo: "A casa de acolhimento é um lar temporário para homens em situação de vulnerabilidade social.",
   texto:
@@ -41,6 +35,16 @@ export const about = {
 };
 
 export const posts = [
+  {
+    id: 2,
+    tipo: "Projeto",
+    titulo: "A casa",
+    icone: Acasa,
+    imagem: quemSomos,
+    resumo: "A casa de acolhimento é um lar temporário para homens em situação de vulnerabilidade social.",
+    texto:
+      "Nossa Casa de acolhimento, como o próprio nome diz, visa acolher as homens em situação de rua e cuidá-los, oferecendo moradia, alimentação, banho, cursos, atendimento médico e psicológico, e encaminhamento ao mercado de trabalho, visando sua ressocialização, para que o acolhido possa se tornar protagonista da sua vida novamente. Nossa casa possui capacidade para apenas 15 pessoas, por isso criamos um processo de triagem para os devidos encaminhamentos.",
+  },
   {
     id: 3,
     tipo: "Projeto",
