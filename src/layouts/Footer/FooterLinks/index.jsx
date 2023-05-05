@@ -75,7 +75,7 @@ export default function FooterLinks() {
         <div className="subSection">
           <ul>
             <li>
-              <Link to="./ajudar">Doações</Link>
+              <Link to="./doacoes">Doações</Link>
             </li>
           </ul>
         </div>
