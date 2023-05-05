@@ -22,7 +22,7 @@ export default function Projects() {
         <h2>Doe materiais recicláveis</h2>
 
         <div className="flex w-fit items-center mx-auto">
-          <img src="/public/assets/icons/HomemDeAmor.svg" className="w52" alt="" />
+          <img src="/assets/icons/HomemDeAmor.svg" className="w52" alt="" />
 
           <div className="w-fit flex items-center flex-col ">
             <h3 className="text-xl pb-5">Recebemos materiais recicláveis diariamente</h3>

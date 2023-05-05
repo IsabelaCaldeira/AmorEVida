@@ -19,7 +19,7 @@ export default function Home() {
         <div className="flex flex-col gap-y-5 max-lg:my-8 max-lg:basis-0">
           <h2 className="xs:text-6xl text-4xl xs:mb-10 font-light ">{item.titulo}</h2>
           <p className="xs:text-lg w-10/12">{item.resumo}</p>
-          <Button>Saiba Mais</Button>
+          <Button url={"/sobre"}>Saiba Mais</Button>
         </div>
 
         <figure>
