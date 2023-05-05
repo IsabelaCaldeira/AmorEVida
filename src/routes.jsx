@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Routes, useLocation } from "react-route
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Donate from "./Pages/Donate";
+import Donations from "./Pages/Donations";
 import Home from "./Pages/Home";
 import NotFound from "./Pages/NotFound";
 import Projects from "./Pages/Projects";
@@ -24,9 +25,10 @@ export default function App() {
         <Route path="/transparencia" element={<Transparency />} />
         <Route path="/ajudar" element={<Donate />} />
         <Route path="/contato" element={<Contact />} />
+        <Route path="/doacoes" element={<Donations />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      
+
       <Footer />
     </Router>
   );
