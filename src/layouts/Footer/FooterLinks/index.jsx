@@ -33,7 +33,7 @@ export default function FooterLinks() {
               <Link to="./historia">Depoimentos</Link>
             </li>
             <li>
-              <Link to="./historia">Imprensa</Link>
+              <Link to="./imprensa">Imprensa</Link>
             </li>
           </ul>
         </div>
@@ -53,7 +53,7 @@ export default function FooterLinks() {
               <Link to="./reciclagem">Reciclagem</Link>
             </li>
             <li>
-              <Link to="./historia">Cursos</Link>
+              <Link to="./cursos">Cursos</Link>
             </li>
             <li>
               <Link to="./historia">Doações</Link>

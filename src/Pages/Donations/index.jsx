@@ -10,7 +10,7 @@ export default function Donations() {
   return (
     <article>
       <Banner img={banner} titulo="Doações" />
-      <div className="img-nos max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <img className="mt-20" src={foto} alt="foto em de uma ação para doação" />
         <p className="my-8 mt-12 mb-20">{item.texto}</p>
       </div>
