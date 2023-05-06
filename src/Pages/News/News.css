@@ -1,0 +1,43 @@
+.imprensa h1 {
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.noticias {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.noticia {
+  display: flex;
+  width: 32em;
+  height: 27.4em;
+  background-color: var(--branco);
+  border: 1px solid var(--cor-de-fundo);
+  border-radius: 16px;
+  margin-bottom: 2em;
+  justify-content: space-around;
+  margin: 1em 2em;
+}
+
+.noticia h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 1em;
+}
+
+.noticia p {
+  margin: 1em;
+}
+
+
+.noticia img {
+  width: 27.2em;
+  height: 14.6em;
+  border-radius: 16px;
+  margin: 2em 2em;
+}
