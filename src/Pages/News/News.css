@@ -14,8 +14,8 @@
 
 .noticia {
   display: flex;
-  width: 32em;
-  height: 27.4em;
+  width: 512px;
+  height: 438px;
   background-color: var(--branco);
   border: 1px solid var(--cor-de-fundo);
   border-radius: 16px;
@@ -36,8 +36,8 @@
 
 
 .noticia img {
-  width: 27.2em;
-  height: 14.6em;
+  width: 435px;
+  height: 236px;
   border-radius: 16px;
   margin: 2em 2em;
 }
