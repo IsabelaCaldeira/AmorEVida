@@ -8,6 +8,7 @@ import Donations from "./Pages/Donations";
 import Home from "./Pages/Home";
 import NotFound from "./Pages/NotFound";
 import Projects from "./Pages/Projects";
+import Recycling from "./Pages/Recycling";
 import Transparency from "./Pages/Transparency";
 import Footer from "./layouts/Footer";
 import Navbar from "./layouts/Navbar";
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/ajudar" element={<Donate />} />
         <Route path="/contato" element={<Contact />} />
         <Route path="/doacoes" element={<Donations />} />
+        <Route path="/reciclagem" element={<Recycling />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
