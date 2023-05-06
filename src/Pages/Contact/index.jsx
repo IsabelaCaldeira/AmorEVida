@@ -88,7 +88,7 @@ function FormularioContato() {
 
 function BotaoEnviar() {
   return (
-    <button type="submit">Enviar</button>
+    <button className="botao" type="submit">Enviar</button>
   );
 }
 
