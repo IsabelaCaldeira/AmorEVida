@@ -6,6 +6,18 @@
   font-size: 62px;
   font-weight: 300;
   text-align: center;
+  margin-bottom: 1em;
+}
+
+.mapas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mapas p {
+  margin-bottom: 1.5em;
 }
 
 .form {
@@ -15,9 +27,40 @@
 .form h2 {
   font-size: 50px;
   font-weight: 300;
+  margin: 1em;
 }
 
 .form p {
   font-size: 16px;
   font-weight: 400;
+}
+
+.entradas {
+  margin: 2em 0;
+}
+
+input {
+  width: 404px;
+  height: 48px;
+  margin-bottom: 1em;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+  width: 841px;
+  height: 200px;
+  margin-bottom: 1em;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+}
+
+.botao button {
+  color: var(--preto);
 }
