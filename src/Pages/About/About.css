@@ -30,9 +30,9 @@
 .about .quadrado {
   background-color: var(--branco);
   box-shadow: 0 0 7px -2px #0003;
-  max-width: 25.32em;
-  min-width: 18.35em;
-  height: 22.35em;
+  max-width: 405px;
+  min-width: 293px;
+  height: 357px;
   flex-direction: column;
   display: flex;
   align-items: center;
