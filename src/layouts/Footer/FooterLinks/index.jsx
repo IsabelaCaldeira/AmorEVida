@@ -50,7 +50,7 @@ export default function FooterLinks() {
               <Link to="./historia">A Casa</Link>
             </li>
             <li>
-              <Link to="./historia">Reciclagem</Link>
+              <Link to="./reciclagem">Reciclagem</Link>
             </li>
             <li>
               <Link to="./historia">Cursos</Link>

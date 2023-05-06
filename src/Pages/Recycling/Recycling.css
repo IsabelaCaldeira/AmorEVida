@@ -1,0 +1,49 @@
+.reciclagem h2 {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reciclagem__doe {
+  display: flex;
+}
+
+.reciclagem__doe img {
+  width: 14em;
+  height: 14em;
+}
+
+.reciclagem__doe h3 {
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+
+.reciclagem__doe p {
+  font-size: 16px;
+  margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 750px) {
+  .reciclagem {
+    margin: 0 2em;
+  }
+
+
+
+  .reciclagem__doe {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reciclagem__doe img {
+    width: 10em;
+    height: 10em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  .reciclagem__doe-texto {
+    margin: 0em;
+  }
+}
