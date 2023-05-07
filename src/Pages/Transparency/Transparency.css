@@ -26,9 +26,23 @@
   padding: 2em;
   box-shadow: none;
   margin: 1em 2em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .botao button:hover {
   margin-top: -.2em;
   transition: 0.3s ease;
+}
+
+
+@media screen and (max-width: 750px) {
+  .transparencia {
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .transparencia h1 {
+    font-size: 50px;
+    margin-top: 1em;
+  }
 }
