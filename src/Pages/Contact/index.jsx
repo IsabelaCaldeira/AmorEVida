@@ -66,21 +66,21 @@ function FormularioContato() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="pessoais">
-        <label>
-          Nome
-        </label>
-        <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
-        <label>
-          Email
+        <div className="campo">
+          <label>Nome</label>
+          <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
+        </div>
+        <div className="campo">
+          <label>Email</label>
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-        </label>
+        </div>
       </div>
       <div className="mensagem">
-        <label>
-          Como podemos te ajudar?
-          <textarea value={mensagem} onChange={(e) => setMensagem(e.target.value)} />
-        </label>
-        <BotaoEnviar />
+        <label>Como podemos te ajudar?</label>
+        <textarea value={mensagem} onChange={(e) => setMensagem(e.target.value)} />
+        <div>
+          <BotaoEnviar />
+        </div>
       </div>
     </form>
   );

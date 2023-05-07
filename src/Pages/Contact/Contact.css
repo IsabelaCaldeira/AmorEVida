@@ -39,6 +39,19 @@
   margin: 2em 0;
 }
 
+.pessoais {
+  display: flex;
+  justify-content: center;
+}
+
+.campo {
+  justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 1em;
+}
+
 input {
   width: 404px;
   height: 48px;
@@ -47,10 +60,12 @@ input {
   border-radius: 8px;
 }
 
-label {
+.mensagem {
+  justify-content: flex-start;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: .5em 2em;
 }
 
 textarea {
@@ -59,4 +74,57 @@ textarea {
   margin-bottom: 1em;
   border: 1px solid #CCCCCC;
   border-radius: 8px;
+}
+
+.mensagem button {
+  background: var(--vermelho-claro);
+  width: 200px;
+}
+
+.mensagem button {
+  background: var(--vermelho-claro);
+  width: 200px;
+}
+
+@media screen and (max-width: 750px) {
+  .mapas {
+    flex-direction: column;
+  }
+
+  .mapas iframe {
+    width: 300px;
+    height: 200px;
+  }
+
+  .form h2 {
+    font-size: 36px;
+  }
+
+
+  .pessoais {
+    flex-direction: column;
+  }
+
+  .campo {
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 0em;
+  }
+
+  input {
+    width: 250px;
+  }
+
+  textarea {
+    width: 250px;
+    height: 120px;
+  }
+
+  .mensagem button {
+    background: var(--vermelho-claro);
+    width: 250px;
+  }
+
 }

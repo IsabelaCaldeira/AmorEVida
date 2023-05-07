@@ -11,23 +11,23 @@
    height: 627px;
 } */
 
-.about .img-nos h2 {
+.img-nos h2 {
   position: relative;
   padding-bottom: 2rem;
 }
 
-.about .card {
+.card {
   margin-inline: 1rem;
   flex-direction: column;
 }
 
-.about .card h2 {
+.card h2 {
   font-size: 60px;
   font-weight: 300;
   text-align: center;
 }
 
-.about .quadrado {
+.quadrado {
   background-color: var(--branco);
   box-shadow: 0 0 7px -2px #0003;
   max-width: 405px;
@@ -38,18 +38,18 @@
   align-items: center;
 }
 
-.about .quadrado img {
+.quadrado img {
   margin: 2em 0 .5em 0;
 }
 
-.about .quadrado p {
+.quadrado p {
   font-size: 16px;
   line-height: 24px;
   margin: 0 4em;
   text-align: center;
 }
 
-.about .cards {
+.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
@@ -59,18 +59,18 @@
 }
 
 @media (max-width: 1000px) {
-  .about .cards {
+  .cards {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .about .cards .card:nth-child(3n) {
+  .cards .card:nth-child(3n) {
     display: grid;
     grid-column: 1/3;
     justify-content: center;
   }
 
-  .about .cards .card:nth-child(3n) .quadrado {
+  .cards .card:nth-child(3n) .quadrado {
     width: 430px;
     max-width: 100%;
   }

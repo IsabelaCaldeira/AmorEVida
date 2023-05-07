@@ -8,7 +8,7 @@ export default function Courses() {
   const [item] = useState(posts[3]);
 
   return (
-    <article>
+    <article className="mx-8">
       <Banner img={banner} titulo="CURSOS E PALESTRAS" />
       <div className="img-nos max-w-4xl mx-auto">
         <img className="mt-20" src={foto} alt="foto em de uma ação para doação" />
