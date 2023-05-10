@@ -15,7 +15,7 @@ export default function Imprensa() {
 
   return (
     <article>
-      <div className="imprensa max-w-4xl mx-auto">
+      <div className="imprensa w-full mx-auto">
         <h1>Imprensa</h1>
         <div className="noticias mb-20">
           {imprensa.length > 0 ? (
@@ -32,9 +32,9 @@ export default function Imprensa() {
 
 function Noticia({ imagem, titulo, resumo, link }) {
   return (
-    <div className="noticia">
+    <div className="noticia h-fit sm:h-[450px]">
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img src={imagem} alt={resumo} />
+        <img className="w-full p-3 sm:p-5 rounded-3xl" src={imagem} alt={resumo} />
         <h2>{titulo}</h2>
         <p>{resumo}</p>
       </a>
