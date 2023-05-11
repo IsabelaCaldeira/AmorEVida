@@ -1,16 +1,11 @@
 .footerLinks {
   display: flex;
-
-  /* flex-direction: row; */
-
   flex-wrap: wrap;
 }
 
 .footerLinks .section {
   margin: 1rem;
   align-items: center;
-
-  /* justify-content: center; */
 }
 
 .footerLinks .section .subSection .location li {
@@ -32,8 +27,8 @@
 .footerLinks .section h3 {
   text-decoration: none;
   color: var(--cor-do-texto);
-  margin: 0 0.6em;
-  font-weight: 700;
+  margin: 0 0 1.5rem .6rem;
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -46,12 +41,10 @@
   display: flex;
   flex-direction: column;
   color: #0009;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
+  margin-left: .8rem;
 }
 
-.subSection a {
-  font-weight: 400;
-  font-size: 16px;
-  margin-bottom: 1.5em;
+.subSection ul li {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
 }
