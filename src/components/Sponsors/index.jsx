@@ -3,7 +3,7 @@ import Slider from "../Slider";
 
 export const Sponsors = () => {
   return (
-    <div>
+    <div className="my-16">
       <div className="text-center max-w-2xl mx-auto">
         <h2 className="text-2xl">Patrocinadores, colaboradores e apoiadores</h2>
         <p className="py-6">
