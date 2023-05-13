@@ -1,17 +1,10 @@
 .home .button {
   text-align: center;
   position: relative;
-
-  /* top: 530px; */
-
-  /* left: 1000px; */
 }
 
 .quem-somos {
   display: flex;
-
-  /* background-color: #f3f3f3; */
-
   justify-content: center;
 }
 
