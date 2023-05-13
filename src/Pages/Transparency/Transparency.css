@@ -1,7 +1,7 @@
 .transparencia h1 {
   font-size: 62px;
   font-weight: 300;
-  margin-bottom: .5em;
+  margin-bottom: .5rem;
   text-align: center;
 }
 
@@ -23,9 +23,9 @@
   width: 215px;
   height: 48px;
   justify-content: center;
-  padding: 2em;
+  padding: 2rem;
   box-shadow: none;
-  margin: 1em 2em;
+  margin: 1rem 2rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
