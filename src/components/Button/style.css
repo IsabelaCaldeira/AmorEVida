@@ -3,7 +3,7 @@
   width: fit-content;
   border-radius: 8px;
   border: solid 1px #cc1814;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease;
   height: fit-content;
 }
 

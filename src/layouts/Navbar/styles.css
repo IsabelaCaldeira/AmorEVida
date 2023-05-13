@@ -27,6 +27,20 @@
   color: var(--vermelho-claro);
 }
 
+.navbar .btn-colored:hover{
+  color: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px 0 #83b224aa;
+  background-color: #83B224;
+}
+
+.navbar .btn-colored:active {
+  color: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px 0 #83b224aa;
+  background-color: #59800D;
+}
+  
 .mobile i {
   background-color: #000;
   position: relative;
