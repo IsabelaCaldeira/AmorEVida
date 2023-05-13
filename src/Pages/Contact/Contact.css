@@ -1,12 +1,12 @@
 .contact {
-  margin: 2em 4em;
+  margin: 2rem 4rem;
 }
 
 .contact h1 {
   font-size: 62px;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .mapas {
@@ -17,7 +17,7 @@
 }
 
 .mapas p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 .form {
@@ -27,7 +27,7 @@
 .form h2 {
   font-size: 50px;
   font-weight: 300;
-  margin: 1em;
+  margin: 1rem;
 }
 
 .form p {
@@ -36,7 +36,7 @@
 }
 
 .entradas {
-  margin: 2em 0;
+  margin: 2rem 0;
 }
 
 .pessoais {
@@ -49,13 +49,13 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin: 0 1em;
+  margin: 0 1rem;
 }
 
 input {
   width: 404px;
   height: 48px;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   border: 1px solid #CCCCCC;
   border-radius: 8px;
 }
@@ -65,13 +65,13 @@ input {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: .5em 2em;
+  margin: .5rem 2rem;
 }
 
 textarea {
   width: 841px;
   height: 200px;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   border: 1px solid #CCCCCC;
   border-radius: 8px;
 }
@@ -110,7 +110,7 @@ textarea {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin: 0 0em;
+    margin: 0;
   }
 
   input {
