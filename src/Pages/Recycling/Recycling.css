@@ -9,23 +9,23 @@
 }
 
 .reciclagem__doe img {
-  width: 14em;
-  height: 14em;
+  width: 14rem;
+  height: 14rem;
 }
 
 .reciclagem__doe h3 {
   font-size: 25px;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .reciclagem__doe p {
   font-size: 16px;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 750px) {
   .reciclagem {
-    margin: 0 2em;
+    margin: 0 2rem;
   }
 
 
@@ -36,14 +36,14 @@
   }
 
   .reciclagem__doe img {
-    width: 10em;
-    height: 10em;
+    width: 10rem;
+    height: 10rem;
     display: block;
     margin: 0 auto;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
   }
 
   .reciclagem__doe-texto {
-    margin: 0em;
+    margin: 0;
   }
 }
