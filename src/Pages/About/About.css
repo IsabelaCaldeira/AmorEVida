@@ -6,11 +6,6 @@
   margin: 2rem 0;
 }
 
-/* .about img {
-   width: 846px;
-   height: 627px;
-} */
-
 .about .img-nos h2 {
   position: relative;
   padding-bottom: 2rem;
@@ -39,22 +34,19 @@
 }
 
 .about .quadrado img {
-  margin: 2em 0 .5em 0;
+  margin: 2rem 0 .5rem 0;
 }
 
 .about .quadrado p {
   font-size: 16px;
   line-height: 24px;
-  margin: 0 4em;
+  margin: 0 4rem;
   text-align: center;
 }
 
 .about .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
-  /* justify-content: space-around; */
-
   margin: 3rem 0;
 }
 
@@ -81,9 +73,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr); */
   }
 }
