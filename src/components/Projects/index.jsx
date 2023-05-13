@@ -18,6 +18,11 @@ export default function Projects() {
         <Cards itens={projects} />
       </section>
 
+      <section className="cards-section">
+        <h2>Campanhas</h2>
+        <Cards itens={campains} btn={"DOAR"} />
+      </section>
+
       <section className="recycle">
         <h2>Doe materiais recicláveis</h2>
 
@@ -30,11 +35,6 @@ export default function Projects() {
             <Button colorful={true}>Saiba onde levar</Button>
           </div>
         </div>
-      </section>
-
-      <section className="cards-section">
-        <h2>Campanhas</h2>
-        <Cards itens={campains} btn={"DOAR"} />
       </section>
 
       <section className="cards-section">
