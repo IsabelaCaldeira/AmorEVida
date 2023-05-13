@@ -1,17 +1,15 @@
 .erro {
   display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 1em 8em;
-  font-family: var(--fonte-principal);
+  margin: 1rem 8rem;
 }
 
 .erro h1 {
   font-size: 30px;
 }
 
-.erro button {
+button {
   background-color: var(--vermelho-claro);
   color: var(--branco);
   width: 124px;

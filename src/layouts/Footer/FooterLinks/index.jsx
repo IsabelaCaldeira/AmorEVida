@@ -29,13 +29,12 @@ export default function FooterLinks() {
               <Link to="./historia">Depoimentos</Link>
             </li>
             <li>
-              <Link to="./historia">Imprensa</Link>
+              <Link to="./imprensa">Imprensa</Link>
             </li>
           </ul>
         </div>
       </div>
-      {/* <Link to="./projetos">Projetos e Campanhas</Link> */}
-
+    
       <div className="section w-48">
         <h3> <Link to="./projetos">AÇÕES</Link> </h3>
 
@@ -49,10 +48,10 @@ export default function FooterLinks() {
                 <Link to="./historia">A Casa</Link>
               </li>
               <li>
-                <Link to="./historia">Reciclagem</Link>
+                <Link to="./reciclagem">Reciclagem</Link>
               </li>
               <li>
-                <Link to="./historia">Cursos</Link>
+                <Link to="./cursos">Cursos</Link>
               </li>
               <li>
                 <Link to="./historia">Doações</Link>
@@ -60,9 +59,9 @@ export default function FooterLinks() {
             </ul>
           </div>
         </div>
-
+    
         <div>
-          <h3>
+         <h3>
             <Link to="./projetos">Campanhas</Link>
           </h3>
           <div className="subSection">
