@@ -5,16 +5,18 @@ import missao from "/assets/icons/missao.png";
 import valores from "/assets/icons/valores.png";
 import visao from "/assets/icons/visao.png";
 import banner from "/assets/img/banner-about.png";
+
 export default function About() {
-
   return (
-    <article className="about @container">
-      <Banner img={banner} titulo="QUEM SOMOS" />
-
-      <div className="img-nos max-w-4xl mx-auto">
-        <img src={about.imagem} alt={about.titulo} />
-        <p className="my-8 mt-12">{about.texto}</p>
-      </div>
+    <main className="about @container">
+      <header className="items-center">
+        <Banner img={banner} titulo="QUEM SOMOS" />
+        <div className="img-nos max-w-4xl mx-auto">
+          <img src={about.imagem} alt={about.titulo} />
+          <p className="mt-12">{about.texto[0]}</p>
+          <p className="my-8">{about.texto[1]}</p>
+        </div>
+      </header>
 
       <div className="cards">
         <div className="card">
@@ -45,6 +47,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </article>
+    </main>
   );
 }
