@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import {Button} from "/src/components/Button";
+import { Button } from "/src/components/Button";
 
 const Banner = ({ img, titulo }) => {
   const { pathname } = useLocation();
@@ -10,7 +10,7 @@ const Banner = ({ img, titulo }) => {
         <img className="w-full h-auto" src={img} alt={titulo} />
       </div>
 
-      <div className="max-xs:my-5 xs:mr-10 lg:text-7xl text-5xl font-light">
+      <div className="max-sm:my-5 xs:mr-10 lg:text-7xl xs:text-5xl text-4xl  font-light">
         <h1 style={{ width: "max-content" }}>{titulo}</h1>
         {pathname == "/" ? (
           <div className="button mt-5">
