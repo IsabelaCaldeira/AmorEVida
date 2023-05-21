@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&display=swap");
 
 .CustomAccordion {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   margin-bottom: 100px;
 }
@@ -13,9 +13,6 @@
 .CustomAccordion div h2 button:nth-of-type(n + 1) {
   font-family: "Lato" !important;
   font-weight: 300;
-}
-
-.CustomAccordion div h2 button:nth-of-type(n + 1) {
   border-radius: 0 !important;
   background-color: var(--branco);
   color: #000;
