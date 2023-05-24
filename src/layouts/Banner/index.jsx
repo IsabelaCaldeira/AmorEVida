@@ -10,7 +10,7 @@ const Banner = ({ img, titulo }) => {
         <img className="w-full h-auto" src={img} alt={titulo} />
       </div>
 
-      <div className="max-sm:my-5 xs:mr-10 lg:text-7xl xs:text-5xl text-4xl  font-light">
+      <div className="max-sm:my-5 xs:mx-10 lg:text-7xl xs:text-5xl text-4xl font-light">
         <h1 style={{ width: "max-content" }}>{titulo}</h1>
         {pathname == "/" ? (
           <div className="button mt-5">
