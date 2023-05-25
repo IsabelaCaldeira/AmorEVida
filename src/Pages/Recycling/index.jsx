@@ -12,10 +12,14 @@ export default function Recycling() {
   return (
     <article className="reciclagem">
       <Banner img={banner} titulo="Reciclagem" />
-      <div className="img-nos max-w-4xl mx-auto">
-        <img className="mt-20" src={foto} alt="foto em de uma ação para doação" />
-        <p className="my-8 mt-12 mb-20">{item.texto}</p>
-        <h2>Doe materiais recicláveis</h2>
+
+      <div className="img-nos p-4 max-w-4xl mx-auto">
+        <div className="grid place-items-center">
+          <img className="mt-20" src={foto} alt="foto em de uma ação para doação" />
+          <p className="my-8 mt-12 mb-20">{item.texto}</p>
+        </div>
+        
+        <h2 className=" text-3xl sm:text-4xl ">Doe materiais recicláveis</h2>
         <div className="reciclagem__doe my-8 mt-12 mb-20">
           <img src={doador} alt="ilustracao do doador" />
           <div className="ml-20 reciclagem__doe-texto">

@@ -1,5 +1,4 @@
 .reciclagem h2 {
-  font-size: 35px;
   font-weight: 400;
   text-align: center;
 }
@@ -24,12 +23,6 @@
 }
 
 @media screen and (max-width: 750px) {
-  .reciclagem {
-    margin: 0 2rem;
-  }
-
-
-
   .reciclagem__doe {
     flex-direction: column;
     text-align: center;
