@@ -36,4 +36,27 @@
   max-height: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  .home .voluntario div{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
+.recycle h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+@container (max-width: 800px) {
+  .recycle h2 {font-size: 2rem;}
+  .recycle div img {width: 7rem !important;}
+  .recycle div {text-align: center;}
+}
+
+@container (max-width: 600px) {
+  .recycle div {flex-wrap: wrap; justify-content: center;}
+}
