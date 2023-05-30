@@ -14,7 +14,7 @@ const Banner = ({ img, titulo }) => {
         <h1 style={{ width: "max-content" }}>{titulo}</h1>
         {pathname == "/" ? (
           <div className="button mt-5">
-            <h2 className="text-2xl opacity-80 font-normal">Comover e Mover</h2>
+            <h2 className="text-2xl opacity-80 max-sm:mb-4 font-normal">Comover e Mover</h2>
             <Button colorful={true} padding={"10px 28px"}>COMO AJUDAR</Button>
           </div>
         ) : (
