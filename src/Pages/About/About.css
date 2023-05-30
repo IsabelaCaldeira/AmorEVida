@@ -90,3 +90,26 @@
     height: 370px;
   }
 }
+
+
+.about .management > div{
+  max-width: 500px;
+  width: 100%;
+  height: 280px;
+  border: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 610px) {
+  .about .management > div {
+    width: 250px;
+    height: auto;
+  }
+}
+
+.about .management .positions * {
+  margin-bottom: 16px;
+}
+
+.cardEstrutura .testimonial {
+  height: 440px;
+}
