@@ -112,6 +112,7 @@ function Management({ valor }) {
           area={item.area} 
           nome={item.nome} 
           cargo={item.cargo} 
+          img={item.imagem}
           key={item.id + index}
         />
       ))}
@@ -119,10 +120,10 @@ function Management({ valor }) {
   );
 }
 
-const ManagementCard = ({ area, nome, cargo }) => {
+const ManagementCard = ({ area, nome, cargo, img }) => {
   return (
     <div className="flex flex-wrap subvv items-center rounded-2xl gap-10 p-7 ">
-      <div className="w-56 aspect-square bg-slate-300 rounded-2xl">{/* <img src="" alt="" /> */}</div>
+      <div><img className="rounded-2xl aspect-square w-56" src={img} alt="" /></div>
 
       <div className="positions">
         <h3 className="text-2xl">{area}</h3>
