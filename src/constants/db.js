@@ -1,5 +1,3 @@
-// alterado js para json porque as imagens não estavam sendo importadas.
-// não sei se uso constants ou templates para ser o nome do arquivo.
 import quemSomos from "/assets/posts/quem-somos.png";
 
 // icones
@@ -15,7 +13,13 @@ import casa from "/assets/posts/casa.png";
 // depoimento
 import agasalho from "/assets/Video/DepoimentoCampanhaAgasalho.mp4";
 import acolhido from "/assets/Video/AcolhidoAmoreVida.mp4";
-// import "osasco"
+
+// Diretoria e gestão
+import cecilia from "/assets/img/diretoria/CECILIA ALVES.png";
+import ayran from "/assets/img/diretoria/AYRAN ANDRADE.jpg";
+import poliana from "/assets/img/diretoria/POLIANA OLIVEIRA.jpg";
+import selma from "/assets/img/diretoria/SELMA GONÇALVES.jpg";
+import unk from "/assets/img/Vector.svg";
 
 export const homepage = {
   titulo: "Quem somos",
@@ -125,18 +129,75 @@ export const posts = [
 export const testimonials = [
   {
     id: 10,
-    titulo: "Aluisio da silva",
-    campanha: "Camapanha do Agasalho",
+    titulo: "Camapanha do Agasalho",
     video: agasalho,
     resumo: "Depoimentos de acolhidos pelo projeto incentivando a campanha do agasalho",
     texto: "",
   },
   {
     id: 11,
-    titulo: "Marcus Kleiton Pereida",
-    campanha: "Depoimento de Acolhido",
+    titulo: "Depoimento de Acolhido",
     video: acolhido,
     resumo: "Depoimento de acolhido exaltando a importância do projeto para a comunidade",
     texto: "",
   },
+];
+
+export const managements = [
+  {
+    id: 12,
+    area: "Presidente",
+    nome: "Josmar Xavier",
+    imagem: unk,
+    cargo: "Pastor Evangélico",
+  },
+  {
+    id: 13,
+    area: "Vice-Presidente",
+    nome: "Claudionor Barreto",
+    imagem: unk,
+    cargo: "Serigrafista",
+  },
+  {
+    id: 14,
+    area: "Tesouraria",
+    nome: "Poliana Oliveira",
+    imagem: poliana,
+    cargo: "Administradora",
+  },
+  {
+    id: 15,
+    area: "Tesouraria",
+    nome: "Suzana Berggue",
+    imagem: unk,
+    cargo: "Enfermeira",
+  },
+  {
+    id: 16,
+    area: "Secretaria",
+    nome: "Elisangela Ribeiro",
+    imagem: unk,
+    cargo: "Admistradora",
+  },
+  {
+    id: 17,
+    area: "Secretaria",
+    nome: "Ayran Andrade",
+    imagem: ayran,
+    cargo: "Assistente Social",
+  },
+  {
+    id: 18,
+    area: "Conselho Fiscal",
+    nome: "Cecilia Alves",
+    imagem: cecilia,
+    cargo: "Serviços Gerais",
+  },
+  {
+    id: 19,
+    area: "Conselho Fiscal",
+    nome: "Selma Golçalves",
+    imagem: selma,
+    cargo: "Jornalista",
+  }
 ];
