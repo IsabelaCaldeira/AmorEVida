@@ -11,7 +11,7 @@ import alimente from "/assets/posts/alimente.png";
 import casa from "/assets/posts/casa.png";
 
 // depoimento
-import agasalho from "/assets/Video/DepoimentoCampanhaAgasalho.mp4";
+import agasalho from "/assets/Video/AgasalhoAmoreVida.mp4";
 import acolhido from "/assets/Video/AcolhidoAmoreVida.mp4";
 
 // Diretoria e gestão
