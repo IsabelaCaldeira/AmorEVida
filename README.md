@@ -35,6 +35,10 @@ After your pull request is merged, you can delete your branch.
 ## :zap: To execute the frontend run:
 **Run so you can download the dependencies**
 ```bash
+
+# Entering the Frotend Folder
+$ cd Frontend
+
 # NPM
 $ npm i
 
