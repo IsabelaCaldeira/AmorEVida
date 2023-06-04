@@ -10,7 +10,7 @@
 .btn-outlined {
   background-color: var(--branco);
   color: var(--vermelho-claro);
-  margin-top: 2rem;
+  margin-top: .5rem;
   box-shadow: 0 0 8px 0 rgba(228, 51, 49, 0.4);
 }
 
@@ -28,7 +28,6 @@
 .btn-colored {
   background-color: var(--vermelho-claro);
   color: var(--branco);
-  padding: 4px 36px;
   font-weight: 600;
   box-shadow: 0 0 10px 0 rgba(228, 51, 49, 0.6);
 }
@@ -47,6 +46,15 @@
   background-color: #59800D;
 }
 
-.banner .btn-colored {  
-  font-size: 14px;
+.banner .btn-colored {
+  font-size: 14px;  
+}
+
+@media screen and (max-width: 420px) {
+  .banner .btn-colored {
+    display: grid;
+    place-content: center;
+    height: 35px;
+    margin: 0 auto;
+  }
 }
