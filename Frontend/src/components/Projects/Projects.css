@@ -11,26 +11,6 @@
   margin-bottom: 1rem;
 }
 
-.recycle h2 {
-  text-align: center;
-  font-weight: normal;
-
-  /* font-weight: 300; */
-
-  font-size: 2.5rem;
-
-  /* font-size: 4rem; */
-
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-}
-
-@container (max-width: 480px) {
-  .recycle h2 {font-size: 2rem;}
-  .recycle div img {display: none;}
-  .recycle div {text-align: center;}
-}
-
 @media only screen and (max-width: 360px) {
   .cards-section h2 {
     font-size: 3rem;
@@ -42,34 +22,41 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin: 0 auto;
 }
 
 .cardEstrutura .card {
-  display: flex;
   align-items: flex-start;
 
   margin-bottom: 2rem;
   border-radius: 16px;
 
   background-color: var(--branco);
-  box-shadow: 0 0 5px 0 #0001;
+  border: 1px #d7d7d7 solid;
 }
 
+.cardEstrutura .card:not(.testimonial) {
+  height: 480px;
+}
 
-
-.cardEstrutura .card .descricao {height: 300px;}
-.cardEstrutura .testimonial .descricao {height: fit-content;}
-
-@media only screen and (max-width: 800px) {
-  .cardEstrutura .card,
-  .cardEstrutura .card .descricao {
-    height: fit-content;
+@media only screen and (min-width: 1024px) {
+  .cardEstrutura .card:not(.testimonial) {
+    height: 275px;
   }
 }
 
-.icone {
-  min-width: fit-content;
-  max-width: 250px;
+@media only screen and (min-width: 1080px) {
+  .cardEstrutura .card {
+    max-width: 512px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .cardEstrutura .card,
+  .cardEstrutura .card .descricao {height: fit-content;}
+
+  .cardEstrutura .card .descricao button {margin: 0 auto;}
+
 }
 
 .icone video {
