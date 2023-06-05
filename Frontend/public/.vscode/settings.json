@@ -1,0 +1,22 @@
+{
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "prettier.eslintIntegration": true
+    }
+  },
+
+  "editor.formatOnSave": true,
+  "errorLens.exclude": [
+    "Valor não aceito\\. Valores válidos: \"after-comment\", \"after-declaration\", \"inside-single-line-block\"\\."
+  ],
+
+  "files.exclude": {
+    "node_modules": false,
+    "src/public": false,
+    "out": false,
+    "*config.*": false,
+    "package*": false,
+    ".{e,pr}*": false
+  }
+}
