@@ -11,7 +11,7 @@ const Banner = ({ img, titulo }) => {
       </div>
 
       <div className="max-sm:my-5 xs:mx-10 lg:text-7xl xs:text-5xl text-4xl font-light">
-        <h1 style={{ width: "max-content" }}>{titulo}</h1>
+        <h1 className="tn:w-max ">{titulo}</h1>
         {pathname == "/" ? (
           <div className="button mt-5">
             <h2 className="text-2xl opacity-80 max-sm:mb-4 font-normal">Comover e Mover</h2>

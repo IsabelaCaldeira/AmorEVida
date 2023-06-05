@@ -34,7 +34,7 @@ function Noticia({ imagem, titulo, resumo, link }) {
   return (
     <div className="noticia h-fit sm:h-[450px]">
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img className="w-full p-3 sm:p-5 rounded-3xl" src={imagem} alt={resumo} />
+        <img className="w-full h-72 p-3 sm:p-5 rounded-3xl" src={imagem} alt={resumo} />
         <h2>{titulo}</h2>
         <p>{resumo}</p>
       </a>
