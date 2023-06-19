@@ -1,14 +1,16 @@
 {
   "extends": ["stylelint-config-standard"],
   "rules": {
-    "declaration-empty-line-before": ["always", { "ignore": ["first-nested", "after-declaration"] }],
     "declaration-block-single-line-max-declarations": [3, { "severity": "warning" }],
-    "alpha-value-notation": ["number", { "exceptProperties": ["opacity"] }],
+    "declaration-empty-line-before": ["always", { "ignore": ["first-nested", "after-declaration"] }],
+    "rule-empty-line-before": ["always", { "ignore": "inside-block" }],
     "media-feature-range-notation": "prefix",
     "color-function-notation": "legacy",
+
+    "shorthand-property-no-redundant-values": null,
     "property-no-vendor-prefix": null,
     "no-descending-specificity": null,
     "selector-class-pattern": null,
-    "shorthand-property-no-redundant-values": null
+    "alpha-value-notation": null
   }
 }
