@@ -1,4 +1,4 @@
-import { posts } from "../../constants/db.js";
+import { posts } from "../../constants/db.jsx";
 import { Button } from "../Button";
 import "./Projects.css";
 
@@ -8,7 +8,6 @@ export default function Projects() {
   for (let i in posts) {
     posts[i].tipo == "Projeto" ? projects.push(posts[i]) : campains.push(posts[i]);
   }
-
 
   return (
     <>
@@ -80,4 +79,3 @@ const Card = ({ titulo, resumo, icone, tipo, btn = "Saiba Mais!" }) => {
     </div>
   );
 };
-

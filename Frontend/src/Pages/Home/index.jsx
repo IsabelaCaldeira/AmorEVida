@@ -5,7 +5,7 @@ import banner from "/assets/img/banner.png";
 
 import { useState } from "react";
 import { Sponsors } from "../../components/Sponsors";
-import { homepage } from "../../constants/db.js";
+import { homepage } from "../../constants/db.jsx";
 import "./Home.css";
 
 export default function Home() {
