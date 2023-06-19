@@ -1,4 +1,4 @@
-import { about, testimonials, managements } from "../../constants/db.js";
+import { about, managements, testimonials } from "../../constants/db.jsx";
 import Banner from "../../layouts/Banner";
 import "./About.css";
 import missao from "/assets/icons/missao.png";
@@ -59,11 +59,9 @@ export default function About() {
         <h2>Diretoria e Gestão</h2>
         <Management valor={managements} />
       </section>
-
     </main>
   );
 }
-
 
 // Testimonials
 const Testimonial = ({ itens }) => {
@@ -102,19 +100,12 @@ function TestimonialCard({ titulo, resumo, video }) {
   );
 }
 
-
 // Managements
 function Management({ valor }) {
   return (
     <div className="management flex-wrap cardEstrutura justify-center px-10 gap-8">
       {valor.map((item, index) => (
-        <ManagementCard 
-          area={item.area} 
-          nome={item.nome} 
-          cargo={item.cargo} 
-          img={item.imagem}
-          key={item.id + index}
-        />
+        <ManagementCard area={item.area} nome={item.nome} cargo={item.cargo} img={item.imagem} key={item.id + index} />
       ))}
     </div>
   );
@@ -123,7 +114,9 @@ function Management({ valor }) {
 const ManagementCard = ({ area, nome, cargo, img }) => {
   return (
     <div className="flex flex-wrap subvv items-center rounded-2xl gap-10 p-7 ">
-      <div><img className="rounded-2xl aspect-square w-56" src={img} alt="" /></div>
+      <div>
+        <img className="rounded-2xl aspect-square w-56" src={img} alt="" />
+      </div>
 
       <div className="positions">
         <h3 className="text-2xl">{area}</h3>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { posts } from "../../constants/db.js";
+import { posts } from "../../constants/db.jsx";
 import Banner from "../../layouts/Banner";
 import banner from "/assets/img/banner-courses.png";
 import foto from "/assets/img/courses-picture.png";
