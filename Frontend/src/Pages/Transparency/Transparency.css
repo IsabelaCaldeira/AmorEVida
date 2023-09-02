@@ -1,7 +1,7 @@
 .transparencia h1 {
   font-size: 62px;
   font-weight: 300;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
@@ -24,25 +24,24 @@
   height: 48px;
   justify-content: center;
   padding: 2rem;
-  box-shadow: none;
   margin: 1rem 2rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
 }
 
-.botao button:hover {
-  margin-top: -.2em;
-  transition: 0.3s ease;
+.botao button:is(:hover,:active) {
+  background: #222;
+  color: #FFF;
 }
-
 
 @media screen and (max-width: 750px) {
   .transparencia {
-    margin: 0 2em;
+    margin: 0 2rem;
     text-align: center;
   }
 
   .transparencia h1 {
     font-size: 50px;
-    margin-top: 1em;
+    margin-top: 1rem;
   }
 }
