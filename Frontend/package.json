@@ -10,6 +10,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.10.0",
+    "swiper": "^10.2.0",
     "vite": "^4.2.1"
   },
   "devDependencies": {
