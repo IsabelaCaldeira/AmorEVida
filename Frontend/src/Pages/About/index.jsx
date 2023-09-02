@@ -1,3 +1,4 @@
+import { Carousel } from "../../components/Carousel/index.jsx";
 import { about, managements, testimonials } from "../../constants/db.jsx";
 import Banner from "../../layouts/Banner";
 import "./About.css";
@@ -19,6 +20,8 @@ export default function About() {
           <p className="my-8">{about.texto[1]}</p>
         </div>
       </header>
+
+      <Carousel />
 
       <section className="cards">
         <div className="card">
