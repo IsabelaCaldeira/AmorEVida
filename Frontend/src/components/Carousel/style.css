@@ -1,0 +1,20 @@
+.swiper{
+  padding: 32px;
+}
+
+.swipper-wrapper:hover{cursor: grab;}
+
+.swipper-wrapper:active{cursor: grabbing;}
+
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: red;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  color: green;
+}
