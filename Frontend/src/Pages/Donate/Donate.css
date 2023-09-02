@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.question:focus {
+  cursor: auto;
+}
+
 .cross i {
   transition: all 0.2s ease-in-out;
   background-color: #222;
