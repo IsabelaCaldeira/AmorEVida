@@ -9,7 +9,7 @@
   font-size: 30px;
 }
 
-button {
+.erro .btn {
   background-color: var(--vermelho-claro);
   color: var(--branco);
   width: 124px;

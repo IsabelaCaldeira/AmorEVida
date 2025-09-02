@@ -1,130 +1,47 @@
-.contact {
-  margin: 2rem 4rem;
-}
-
-.contact h1 {
-  font-size: 62px;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
 .mapas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-self: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #0002;
+  margin-block: 3rem 6rem;
 }
 
 .mapas p {
   margin-bottom: 1.5rem;
 }
 
-.form {
-  text-align: center;
+.helpInput label {
+  display: block;
+  padding-left: 12px;
+  margin-bottom: 4px;
 }
 
-.form h2 {
-  font-size: 50px;
-  font-weight: 300;
-  margin: 1rem;
-}
-
-.form p {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.entradas {
-  margin: 2rem 0;
-}
-
-.pessoais {
-  display: flex;
-  justify-content: center;
-}
-
-.campo {
-  justify-content: flex-start;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 0 1rem;
-}
-
-input {
-  width: 404px;
-  height: 48px;
-  margin-bottom: 1rem;
-  border: 1px solid #CCCCCC;
+.helpInput input, .helpInput textarea {
+  width: 360px;
+  padding: 10px;
+  border: 2px solid #aaa;
   border-radius: 8px;
+
 }
 
-.mensagem {
-  justify-content: flex-start;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: .5rem 2rem;
+@media screen and (max-width: 400px) {
+  .helpInput input, .helpInput textarea {
+    width: 100%;
+  }
 }
 
-textarea {
-  width: 841px;
-  height: 200px;
-  margin-bottom: 1rem;
-  border: 1px solid #CCCCCC;
+.helpInput input::placeholder, .helpInput div textarea::placeholder {
+  color: #555;
+}
+
+.cbutton {
   border-radius: 8px;
-}
-
-.mensagem button {
-  background: var(--vermelho-claro);
-  width: 200px;
-}
-
-.mensagem button {
-  background: var(--vermelho-claro);
-  width: 200px;
-}
-
-@media screen and (max-width: 750px) {
-  .mapas {
-    flex-direction: column;
-  }
-
-  .mapas iframe {
-    width: 300px;
-    height: 200px;
-  }
-
-  .form h2 {
-    font-size: 36px;
-  }
-
-
-  .pessoais {
-    flex-direction: column;
-  }
-
-  .campo {
-    justify-content: flex-start;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 0;
-  }
-
-  input {
-    width: 250px;
-  }
-
-  textarea {
-    width: 250px;
-    height: 120px;
-  }
-
-  .mensagem button {
-    background: var(--vermelho-claro);
-    width: 250px;
-  }
-
+  border: solid 1px #cc1814;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  height: fit-content;
+  background-color: var(--vermelho-claro);
+  color: var(--branco);
+  font-weight: 600;
+  box-shadow: 0 0 5px 0 rgba(228, 51, 49, 0.6);
 }

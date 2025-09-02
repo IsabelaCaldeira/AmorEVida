@@ -34,7 +34,7 @@ export default function FooterLinks() {
           </ul>
         </div>
       </div>
-    
+
       <div className="section w-48">
         <h3> <Link to="./projetos">AÇÕES</Link> </h3>
 
@@ -59,7 +59,7 @@ export default function FooterLinks() {
             </ul>
           </div>
         </div>
-    
+
         <div>
           <h3>
             <Link to="./projetos">Campanhas</Link>
@@ -106,10 +106,10 @@ export default function FooterLinks() {
               <Link to="./ajudar">Doações</Link>
             </li>
             <li>
-              <Link to="./ajudar">financeira</Link>
+              <Link to="./ajudar">Financeiro</Link>
             </li>
             <li>
-              <Link to="./ajudar">voluntariado</Link>
+              <Link to="./ajudar">Voluntariado</Link>
             </li>
           </ul>
         </div>

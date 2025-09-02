@@ -34,7 +34,7 @@ export default function Home() {
       </main>
 
       <div className="voluntario mx-auto max-w-fit text-center px-5">
-        <h2 className="mb-5 xs:text-4xl text-3xl">Seja um voluntario!</h2>
+        <h2 className="mb-5 xs:text-4xl text-3xl">Seja um voluntário!</h2>
         <div className="flex items-center justify-center max-sm:p-5">
           <img
             className="max-sm:hidden"

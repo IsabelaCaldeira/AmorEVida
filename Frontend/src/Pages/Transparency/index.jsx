@@ -19,7 +19,7 @@ export default function Transparency() {
 
   return (
     <article>
-      <Banner img={banner} titulo="TRANSPARENCIA" />
+      <Banner img={banner} titulo="TRANSPARÊNCIA" />
       <div className="max-w-4xl mx-auto">
         <div className="transparencia mt-20">
           <h1>Portal da Transparência</h1>

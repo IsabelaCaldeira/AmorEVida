@@ -3,6 +3,7 @@
   width: fit-content;
   border-radius: 8px;
   border: solid 1px #cc1814;
+  text-transform: uppercase;
   transition: 0.3s ease;
   height: fit-content;
 }
@@ -47,7 +48,7 @@
 }
 
 .banner .btn-colored {
-  font-size: 14px;  
+  font-size: 14px;
 }
 
 @media screen and (max-width: 420px) {
