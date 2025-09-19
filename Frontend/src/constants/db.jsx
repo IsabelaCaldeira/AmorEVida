@@ -221,7 +221,7 @@ export const accordion = [
         <p>Campanha Alimente uma vida onde a sua solidariedade é um prato cheio.</p>
         <p>Você pode ajudar a colocar comida na mesa de muitas familias que estão sem o básico!</p>
         <p>Doe itens de cesta básica, verduras, frutas, itens de higiene entre outros.</p>
-        <p>Traga a sua doação para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427 de segunda à sexta entre 16h30 às 19h30. Ou deixar com algum de nossos voluntários no supermercado Villefort.</p>
+        <p>Traga a sua doação para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427 de segunda à sexta entre 16h30 às 19h30.</p>
       </div>
     )
   },
@@ -237,7 +237,7 @@ export const accordion = [
       <div className="grid gap-y-4">
         <p>O projeto reciclagem é vinculado a casa de acolhimento de forma a gerar renda e autonomia aos homens acolhidos na casa.</p>
         <p>Aceitamos diversos materiais e objetos separados e higienizados no nosso galpão.</p>
-        <p>Traga a sua doação para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427 de segunda à sexta entre 16h30 às 19h30. Ou deixar com algum de nossos voluntário no supermercado e Villefort.</p>
+        <p>Traga a sua doação para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427 de segunda à sexta entre 16h30 às 19h30.</p>
       </div>
     ),
   },
@@ -272,7 +272,7 @@ export const accordion = [
 
         <p>
           Faça uma visita: <br/>
-          Sede Administrativa e casa de acolhimento: para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427 de segunda à sexta entre 16h30 às 19h30
+          Sede Administrativa e casa de acolhimento: para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427 de segunda à sexta entre 16h30 às 19h30.
         </p>
       </div>
     ),
@@ -287,7 +287,7 @@ export const accordion = [
     paragraphs: (
       <div className="grid gap-y-4">
         <p>Tem uma peça de roupa conservada que não usa mais? Desapegue!</p>
-        <p>Traga a sua doação para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427, de segunda à sexta entre 16h30 às 19h30. Ou deixar com algum de nossos voluntários no supermercado Villefort.</p>
+        <p>Traga a sua doação para Rua Melo Viana, 401 - Morrinhos - Montes Claros/MG, 39400-427 de segunda à sexta entre 16h30 às 19h30.</p>
       </div>
     ),
   },
