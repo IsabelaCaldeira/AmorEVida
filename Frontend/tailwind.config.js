@@ -8,7 +8,6 @@ module.exports = {
       colors: {
         firebrick: "#d02e2a",
       },
-
       screens: {
         tn: "350px",
         xs: "420px",

@@ -18,6 +18,7 @@
 }
 
 /* CARDS */
+
 .cardEstrutura {
   display: flex;
   flex-wrap: wrap;
