@@ -8,6 +8,11 @@ import yt from "/assets/icons/yt.png";
 import logo from "/assets/img/logo.png";
 
 export default function Footer() {
+  const urls = {
+    insta: 'https://www.instagram.com',
+    fb: 'https://www.facebook.com',
+    yt: 'https://www.youtube.com',
+  };
   return (
     <footer className="footer max-sm:mt-12">
       <div className="content relative max-w-full px-6 max-md:pt-20 ">
@@ -43,24 +48,24 @@ export default function Footer() {
         <div className="imagens-sociais">
           <ul className="flex">
             <li className="ml-1 mr-2 mt-5 ">
-              <Link href="#" target="_blank">
-                <img className="h-5 redes-sociais " src={insta} alt="" />
+              <Link to={urls.insta} target="_blank">
+                <img className="h-5 redes-sociais" src={insta} alt="Instagram" />
               </Link>
             </li>
             <li className="ml-1 mr-2 mt-5">
-              <Link href="#" target="_blank">
-                <img className="h-5 redes-sociais" src={fb} alt="" />
+              <Link to={urls.fb} target="_blank">
+                <img className="h-5 redes-sociais" src={fb} alt="Facebook" />
               </Link>
             </li>
             <li className="ml-1 mt-5">
-              <Link href="#" target="_blank">
-                <img className="h-[1.3rem] redes-sociais-yt" src={yt} alt="" />
+              <Link to={urls.yt} target="_blank">
+                <img className="h-[1.3rem] redes-sociais-yt" src={yt} alt="YouTube" />
               </Link>
             </li>
           </ul>
         </div>
 
-        <div className="text-right max-xs:text-sm ">© 2023 Amor e Vida: Comover e Mover</div>
+        <div className="text-right max-xs:text-sm ">© {new Date().getFullYear()} Amor e Vida: Comover e Mover</div>
       </div>
     </footer>
   );

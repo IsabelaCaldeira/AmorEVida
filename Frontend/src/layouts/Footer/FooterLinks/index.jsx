@@ -6,55 +6,55 @@ export default function FooterLinks() {
     <section className="footerLinks pt-8 max-md:justify-evenly justify-between max-sm:flex-col flex-row">
       <div className="section">
         <h3>
-          <Link to="./">INÍCIO</Link>
+          <Link to="/">INÍCIO</Link>
         </h3>
       </div>
 
       <div className="section">
         <h3>
-          <Link to="./sobre">QUEM SOMOS</Link>
+          <Link to="/sobre">QUEM SOMOS</Link>
         </h3>
         <div className="subSection">
           <ul>
             <li>
-              <Link to="./historia">Nossa História</Link>
+              <Link to="/historia">Nossa História</Link>
             </li>
             <li>
-              <Link to="./historia">Diretoria e Gestão</Link>
+              <Link to="/historia">Diretoria e Gestão</Link>
             </li>
             <li>
-              <Link to="./historia">Missão, Visão e Valores</Link>
+              <Link to="/historia">Missão, Visão e Valores</Link>
             </li>
             <li>
-              <Link to="./historia">Depoimentos</Link>
+              <Link to="/historia">Depoimentos</Link>
             </li>
             <li>
-              <Link to="./imprensa">Imprensa</Link>
+              <Link to="/imprensa">Imprensa</Link>
             </li>
           </ul>
         </div>
       </div>
     
-      <div className="section w-48">
-        <h3> <Link to="./projetos">AÇÕES</Link> </h3>
+      <div className="section w-48 tn:w-22">
+        <h3> <Link to="/projetos">AÇÕES</Link> </h3>
 
         <div>
           <h3>
-            <Link to="./projetos">Projetos</Link>
+            <Link to="/projetos">Projetos</Link>
           </h3>
           <div className="subSection">
             <ul>
               <li>
-                <Link to="./historia">A Casa</Link>
+                <Link to="/historia">A Casa</Link>
               </li>
               <li>
-                <Link to="./reciclagem">Reciclagem</Link>
+                <Link to="/reciclagem">Reciclagem</Link>
               </li>
               <li>
-                <Link to="./cursos">Cursos</Link>
+                <Link to="/cursos">Cursos</Link>
               </li>
               <li>
-                <Link to="./historia">Doações</Link>
+                <Link to="/doacoes">Doações</Link>
               </li>
             </ul>
           </div>
@@ -62,21 +62,21 @@ export default function FooterLinks() {
     
         <div>
           <h3>
-            <Link to="./projetos">Campanhas</Link>
+            <Link to="/projetos">Campanhas</Link>
           </h3>
           <div className="subSection">
             <ul>
               <li>
-                <Link to="./historia">Filho de catador pode ser doutor!</Link>
+                <Link to="/historia">Filho de catador pode ser doutor!</Link>
               </li>
               <li>
-                <Link to="./historia">Aqueça uma família</Link>
+                <Link to="/historia">Aqueça uma família</Link>
               </li>
               <li>
-                <Link to="./historia">Quem cata merece casa</Link>
+                <Link to="/historia">Quem cata merece casa</Link>
               </li>
               <li>
-                <Link to="./historia">Alimente uma vida</Link>
+                <Link to="/historia">Alimente uma vida</Link>
               </li>
             </ul>
           </div>
@@ -85,12 +85,12 @@ export default function FooterLinks() {
 
       <div className="section">
         <h3>
-          <Link to="./transparencia">TRANSPARÊNCIA</Link>
+          <Link to="/transparencia">TRANSPARÊNCIA</Link>
         </h3>
         <div className="subSection">
           <ul>
             <li>
-              <Link to="./ajudar">Portal da Transparência</Link>
+              <Link to="/ajudar">Portal da Transparência</Link>
             </li>
           </ul>
         </div>
@@ -98,18 +98,18 @@ export default function FooterLinks() {
 
       <div className="section">
         <h3>
-          <Link to="./ajudar">COMO AJUDAR</Link>
+          <Link to="/ajudar">COMO AJUDAR</Link>
         </h3>
         <div className="subSection">
           <ul>
             <li>
-              <Link to="./ajudar">Doações</Link>
+              <Link to="/ajudar">Doações</Link>
             </li>
             <li>
-              <Link to="./ajudar">financeira</Link>
+              <Link to="/ajudar">financeira</Link>
             </li>
             <li>
-              <Link to="./ajudar">voluntariado</Link>
+              <Link to="/ajudar">voluntariado</Link>
             </li>
           </ul>
         </div>
@@ -117,7 +117,7 @@ export default function FooterLinks() {
 
       <div className="section">
         <h3 className="text-xl font-bold opacity-90">
-          <Link>CONTATO</Link>
+          <Link to="/contato">CONTATO</Link>
         </h3>
 
         <div className="subSection">

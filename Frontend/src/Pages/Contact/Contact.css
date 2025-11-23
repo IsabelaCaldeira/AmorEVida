@@ -56,7 +56,7 @@ input {
   width: 404px;
   height: 48px;
   margin-bottom: 1rem;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #CCC;
   border-radius: 8px;
 }
 
@@ -72,13 +72,8 @@ textarea {
   width: 841px;
   height: 200px;
   margin-bottom: 1rem;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #CCC;
   border-radius: 8px;
-}
-
-.mensagem button {
-  background: var(--vermelho-claro);
-  width: 200px;
 }
 
 .mensagem button {
